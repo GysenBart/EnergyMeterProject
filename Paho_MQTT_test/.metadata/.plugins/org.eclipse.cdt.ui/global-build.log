@@ -1,0 +1,2661 @@
+15:13:43 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+15:15:44 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+15:16:11 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+16:38:11 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+16:40:58 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main()’:
+../src/TestARM.cpp:14:2: error: ‘c’ was not declared in this scope
+   14 |  c++;
+      |  ^
+../src/TestARM.cpp:13:6: warning: unused variable ‘x’ [-Wunused-variable]
+   13 |  int x = 5;
+      |      ^
+make: *** [src/subdir.mk:20: src/TestARM.o] Fout 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:41:45 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+16:45:57 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make: Er hoeft niets gedaan te worden voor 'all'.
+16:46:56 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make: Er hoeft niets gedaan te worden voor 'all'.
+16:47:25 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+20:29:22 **** Build of configuration Release for project TestARM ****
+make all 
+make: Er hoeft niets gedaan te worden voor 'all'.
+20:32:35 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make: Er hoeft niets gedaan te worden voor 'all'.
+20:32:47 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+20:36:39 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+20:38:13 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make: Er hoeft niets gedaan te worden voor 'all'.
+20:38:27 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+20:39:55 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+20:43:04 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+20:45:49 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+20:47:23 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+08:47:01 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+08:47:33 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+08:50:19 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+08:51:45 **** Clean-only build of configuration Debug for project TestARM ****
+make clean 
+rm -rf ./src/TestARM.d ./src/TestARM.o
+rm -rf TestARM
+ 
+08:51:46 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+08:56:32 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+scp: /home/debian/BBBTest: Text file busy
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+ 
+08:57:07 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+scp: /home/debian/BBBTest: Text file busy
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+ 
+08:57:15 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:06:38 **** Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:07:39 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:160:9: warning: unused variable ‘n’ [-Wunused-variable]
+  160 |     int n = read(fd, &read_buf, sizeof(read_buf));
+      |         ^
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+ssh: connect to host 192.168.7.2 port 22: Connection timed out
+lost connection
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+ 
+10:10:23 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.0.101:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:11:15 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:160:9: warning: unused variable ‘n’ [-Wunused-variable]
+  160 |     int n = read(fd, &read_buf, sizeof(read_buf));
+      |         ^
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.0.101:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:11:41 **** Clean-only build of configuration Debug for project TestARM ****
+make clean 
+rm -rf ./src/TestARM.d ./src/TestARM.o
+rm -rf TestARM
+ 
+10:11:41 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:160:9: warning: unused variable ‘n’ [-Wunused-variable]
+  160 |     int n = read(fd, &read_buf, sizeof(read_buf));
+      |         ^
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+make: *** [makefile:50: all] Beëindigd
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+Command canceled
+10:13:22 **** Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+20:30:39 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+12:22:09 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+ssh: connect to host 192.168.7.2 port 22: Connection timed out
+lost connection
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+ 
+12:24:20 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+ssh: connect to host 192.168.7.2 port 22: Connection timed out
+lost connection
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+ 
+12:26:31 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+make: *** [makefile:50: all] Beëindigd
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+Command canceled
+12:28:40 **** Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+make: *** [makefile:50: all] Beëindigd
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+Command canceled
+12:30:49 **** Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+12:33:25 **** Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+make: *** [makefile:50: all] Beëindigd
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+Command canceled
+12:35:32 **** Build of configuration Debug for project TestARM ****
+make all 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+12:38:58 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+12:39:21 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+12:43:25 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+12:44:20 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+12:52:10 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:160:9: warning: unused variable ‘n’ [-Wunused-variable]
+  160 |     int n = read(fd, &read_buf, sizeof(read_buf));
+      |         ^
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+12:52:23 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+12:52:33 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+12:53:10 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:160:9: warning: unused variable ‘n’ [-Wunused-variable]
+  160 |     int n = read(fd, &read_buf, sizeof(read_buf));
+      |         ^
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+12:53:16 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+12:56:47 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+09:09:33 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+09:23:10 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+09:26:15 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+09:55:57 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:110:9: warning: unused variable ‘error’ [-Wunused-variable]
+  110 |     int error = 0;
+      |         ^~~~~
+../src/TestARM.cpp:135:9: warning: unused variable ‘n’ [-Wunused-variable]
+  135 |     int n = read(fd, &read_buf, sizeof(read_buf));
+      |         ^
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:05:18 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:111:9: warning: unused variable ‘error’ [-Wunused-variable]
+  111 |     int error = 0;
+      |         ^~~~~
+../src/TestARM.cpp:136:9: warning: unused variable ‘n’ [-Wunused-variable]
+  136 |     int n = read(fd, &read_buf, sizeof(read_buf));
+      |         ^
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+scp: /home/debian/BBBTest: Text file busy
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+ 
+10:05:37 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:05:56 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:18:16 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:22:13 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:111:9: warning: unused variable ‘error’ [-Wunused-variable]
+  111 |     int error = 0;
+      |         ^~~~~
+../src/TestARM.cpp:136:9: warning: unused variable ‘n’ [-Wunused-variable]
+  136 |     int n = read(fd, &read_buf, sizeof(read_buf));
+      |         ^
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:22:24 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:23:27 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:111:9: warning: unused variable ‘error’ [-Wunused-variable]
+  111 |     int error = 0;
+      |         ^~~~~
+../src/TestARM.cpp:136:9: warning: unused variable ‘n’ [-Wunused-variable]
+  136 |     int n = read(fd, &read_buf, sizeof(read_buf));
+      |         ^
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:23:33 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:33:07 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:111:9: warning: unused variable ‘error’ [-Wunused-variable]
+  111 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:43:22 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘void ReadAddress(int, unsigned char, unsigned int, unsigned char)’:
+../src/TestARM.cpp:201:21: error: ‘RawRxData’ was not declared in this scope
+  201 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                     ^~~~~~~~~
+../src/TestARM.cpp:201:32: error: ‘MODBUSRXBUFFERSIZE’ was not declared in this scope
+  201 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                                ^~~~~~~~~~~~~~~~~~
+../src/TestARM.cpp:209:3: error: ‘valid’ was not declared in this scope
+  209 |   valid=0;
+      |   ^~~~~
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:229:9: warning: unused variable ‘error’ [-Wunused-variable]
+  229 |     int error = 0;
+      |         ^~~~~
+make[1]: *** [src/subdir.mk:20: src/TestARM.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+10:48:25 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘void ReadAddress(int, unsigned char, unsigned int, unsigned char)’:
+../src/TestARM.cpp:212:3: error: ‘valid’ was not declared in this scope
+  212 |   valid=0;
+      |   ^~~~~
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:232:9: warning: unused variable ‘error’ [-Wunused-variable]
+  232 |     int error = 0;
+      |         ^~~~~
+make[1]: *** [src/subdir.mk:20: src/TestARM.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+10:51:23 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:233:9: warning: unused variable ‘error’ [-Wunused-variable]
+  233 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:55:48 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:233:9: warning: unused variable ‘error’ [-Wunused-variable]
+  233 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+10:58:41 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:233:9: warning: unused variable ‘error’ [-Wunused-variable]
+  233 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+12:44:37 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+ssh: connect to host 192.168.7.2 port 22: No route to host
+lost connection
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+ 
+21:24:46 **** Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:8:10: fatal error: iostream: Bestand of map bestaat niet
+    8 | #include <iostream>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+21:27:43 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:20:10: fatal error: Serial.h: Bestand of map bestaat niet
+   20 | #include <Serial.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+21:28:33 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:20:10: fatal error: Serial.h: Bestand of map bestaat niet
+   20 | #include <Serial.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+21:31:48 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:20:10: fatal error: Serial.h: Bestand of map bestaat niet
+   20 | #include <Serial.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+21:33:23 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:20:10: fatal error: Serial.h: Bestand of map bestaat niet
+   20 | #include <Serial.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+21:36:37 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:20:10: fatal error: Serial.h: Bestand of map bestaat niet
+   20 | #include <Serial.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+21:38:20 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:21:10: fatal error: Modbus.h: Bestand of map bestaat niet
+   21 | #include <Modbus.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+18:54:31 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:21:10: fatal error: Modbus.h: Bestand of map bestaat niet
+   21 | #include <Modbus.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+18:57:23 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:33:21: error: excess elements in ‘char’ array initializer
+   33 |   "Actual Voltage", "Maximum Voltage", "Minimum Voltage", "Actual Current", "Maximum Current", "Minimum Current", "Actual Active Power",
+      |                     ^~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:21: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:33:40: error: excess elements in ‘char’ array initializer
+   33 |   "Actual Voltage", "Maximum Voltage", "Minimum Voltage", "Actual Current", "Maximum Current", "Minimum Current", "Actual Active Power",
+      |                                        ^~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:40: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:33:59: error: excess elements in ‘char’ array initializer
+   33 |   "Actual Voltage", "Maximum Voltage", "Minimum Voltage", "Actual Current", "Maximum Current", "Minimum Current", "Actual Active Power",
+      |                                                           ^~~~~~~~~~~~~~~~
+../src/Modbus.c:33:59: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:33:77: error: excess elements in ‘char’ array initializer
+   33 |   "Actual Voltage", "Maximum Voltage", "Minimum Voltage", "Actual Current", "Maximum Current", "Minimum Current", "Actual Active Power",
+      |                                                                             ^~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:77: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:33:96: error: excess elements in ‘char’ array initializer
+   33 |   "Actual Voltage", "Maximum Voltage", "Minimum Voltage", "Actual Current", "Maximum Current", "Minimum Current", "Actual Active Power",
+      |                                                                                                ^~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:96: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:33:115: error: excess elements in ‘char’ array initializer
+   33 |   "Actual Voltage", "Maximum Voltage", "Minimum Voltage", "Actual Current", "Maximum Current", "Minimum Current", "Actual Active Power",
+      |                                                                                                                   ^~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:115: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:34:3: error: excess elements in ‘char’ array initializer
+   34 |   "Maximum Active Power", "Minimum Active Power",
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:34:3: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:34:27: error: excess elements in ‘char’ array initializer
+   34 |   "Maximum Active Power", "Minimum Active Power",
+      |                           ^~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:34:27: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c: In function ‘ReadAddress’:
+../src/Modbus.c:131:21: error: ‘RawRxData’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                     ^~~~~~~~~
+../src/Modbus.c:131:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/Modbus.c:131:32: error: ‘MODBUSRXBUFFERSIZE’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                                ^~~~~~~~~~~~~~~~~~
+../src/Modbus.c:139:3: error: ‘valid’ undeclared (first use in this function)
+  139 |   valid=0;
+      |   ^~~~~
+At top level:
+../src/Modbus.c:32:13: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   32 | static char RegisterNamesCircutorCVM1D[] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:28:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   28 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+18:57:54 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:8:10: fatal error: iostream.h: Bestand of map bestaat niet
+    8 | #include <iostream.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:00:41 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:33:21: error: excess elements in ‘char’ array initializer
+   33 |   "Actual Voltage", "Maximum Voltage", "Minimum Voltage", "Actual Current", "Maximum Current", "Minimum Current", "Actual Active Power",
+      |                     ^~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:21: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:33:40: error: excess elements in ‘char’ array initializer
+   33 |   "Actual Voltage", "Maximum Voltage", "Minimum Voltage", "Actual Current", "Maximum Current", "Minimum Current", "Actual Active Power",
+      |                                        ^~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:40: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:33:59: error: excess elements in ‘char’ array initializer
+   33 |   "Actual Voltage", "Maximum Voltage", "Minimum Voltage", "Actual Current", "Maximum Current", "Minimum Current", "Actual Active Power",
+      |                                                           ^~~~~~~~~~~~~~~~
+../src/Modbus.c:33:59: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:33:77: error: excess elements in ‘char’ array initializer
+   33 |   "Actual Voltage", "Maximum Voltage", "Minimum Voltage", "Actual Current", "Maximum Current", "Minimum Current", "Actual Active Power",
+      |                                                                             ^~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:77: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:33:96: error: excess elements in ‘char’ array initializer
+   33 |   "Actual Voltage", "Maximum Voltage", "Minimum Voltage", "Actual Current", "Maximum Current", "Minimum Current", "Actual Active Power",
+      |                                                                                                ^~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:96: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:33:115: error: excess elements in ‘char’ array initializer
+   33 |   "Actual Voltage", "Maximum Voltage", "Minimum Voltage", "Actual Current", "Maximum Current", "Minimum Current", "Actual Active Power",
+      |                                                                                                                   ^~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:115: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:34:3: error: excess elements in ‘char’ array initializer
+   34 |   "Maximum Active Power", "Minimum Active Power",
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:34:3: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c:34:27: error: excess elements in ‘char’ array initializer
+   34 |   "Maximum Active Power", "Minimum Active Power",
+      |                           ^~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:34:27: note: (near initialization for ‘RegisterNamesCircutorCVM1D’)
+../src/Modbus.c: In function ‘ReadAddress’:
+../src/Modbus.c:131:21: error: ‘RawRxData’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                     ^~~~~~~~~
+../src/Modbus.c:131:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/Modbus.c:131:32: error: ‘MODBUSRXBUFFERSIZE’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                                ^~~~~~~~~~~~~~~~~~
+../src/Modbus.c:139:3: error: ‘valid’ undeclared (first use in this function)
+  139 |   valid=0;
+      |   ^~~~~
+At top level:
+../src/Modbus.c:32:13: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   32 | static char RegisterNamesCircutorCVM1D[] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:28:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   28 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:05:54 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:32:13: error: array type has incomplete element type ‘char[]’
+   32 | static char RegisterNamesCircutorCVM1D[][] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:32:13: note: declaration of ‘RegisterNamesCircutorCVM1D’ as multidimensional array must have bounds for all dimensions except the first
+../src/Modbus.c: In function ‘ReadAddress’:
+../src/Modbus.c:131:21: error: ‘RawRxData’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                     ^~~~~~~~~
+../src/Modbus.c:131:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/Modbus.c:131:32: error: ‘MODBUSRXBUFFERSIZE’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                                ^~~~~~~~~~~~~~~~~~
+../src/Modbus.c:139:3: error: ‘valid’ undeclared (first use in this function)
+  139 |   valid=0;
+      |   ^~~~~
+At top level:
+../src/Modbus.c:32:13: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   32 | static char RegisterNamesCircutorCVM1D[][] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:28:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   28 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:06:20 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:32:22: error: array type has incomplete element type ‘unsigned char[]’
+   32 | static unsigned char RegisterNamesCircutorCVM1D[][] = {
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:32:22: note: declaration of ‘RegisterNamesCircutorCVM1D’ as multidimensional array must have bounds for all dimensions except the first
+../src/Modbus.c: In function ‘ReadAddress’:
+../src/Modbus.c:131:21: error: ‘RawRxData’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                     ^~~~~~~~~
+../src/Modbus.c:131:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/Modbus.c:131:32: error: ‘MODBUSRXBUFFERSIZE’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                                ^~~~~~~~~~~~~~~~~~
+../src/Modbus.c:139:3: error: ‘valid’ undeclared (first use in this function)
+  139 |   valid=0;
+      |   ^~~~~
+At top level:
+../src/Modbus.c:32:22: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   32 | static unsigned char RegisterNamesCircutorCVM1D[][] = {
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:28:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   28 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:06:44 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:32:17: error: array type has incomplete element type ‘u_int8_t[]’ {aka ‘unsigned char[]’}
+   32 | static u_int8_t RegisterNamesCircutorCVM1D[][] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:32:17: note: declaration of ‘RegisterNamesCircutorCVM1D’ as multidimensional array must have bounds for all dimensions except the first
+../src/Modbus.c: In function ‘ReadAddress’:
+../src/Modbus.c:131:21: error: ‘RawRxData’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                     ^~~~~~~~~
+../src/Modbus.c:131:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/Modbus.c:131:32: error: ‘MODBUSRXBUFFERSIZE’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                                ^~~~~~~~~~~~~~~~~~
+../src/Modbus.c:139:3: error: ‘valid’ undeclared (first use in this function)
+  139 |   valid=0;
+      |   ^~~~~
+At top level:
+../src/Modbus.c:32:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   32 | static u_int8_t RegisterNamesCircutorCVM1D[][] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:28:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   28 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:07:17 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:32:17: error: array type has incomplete element type ‘u_int8_t[]’ {aka ‘unsigned char[]’}
+   32 | static u_int8_t RegisterNamesCircutorCVM1D[][] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:32:17: note: declaration of ‘RegisterNamesCircutorCVM1D’ as multidimensional array must have bounds for all dimensions except the first
+../src/Modbus.c: In function ‘ReadAddress’:
+../src/Modbus.c:131:21: error: ‘RawRxData’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                     ^~~~~~~~~
+../src/Modbus.c:131:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/Modbus.c:131:32: error: ‘MODBUSRXBUFFERSIZE’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                                ^~~~~~~~~~~~~~~~~~
+../src/Modbus.c:139:3: error: ‘valid’ undeclared (first use in this function)
+  139 |   valid=0;
+      |   ^~~~~
+At top level:
+../src/Modbus.c:32:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   32 | static u_int8_t RegisterNamesCircutorCVM1D[][] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:28:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   28 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:08:12 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c: In function ‘ReadAddress’:
+../src/Modbus.c:131:21: error: ‘RawRxData’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                     ^~~~~~~~~
+../src/Modbus.c:131:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/Modbus.c:131:32: error: ‘MODBUSRXBUFFERSIZE’ undeclared (first use in this function)
+  131 |  int n = read(l_fd, RawRxData, MODBUSRXBUFFERSIZE);
+      |                                ^~~~~~~~~~~~~~~~~~
+../src/Modbus.c:139:3: error: ‘valid’ undeclared (first use in this function)
+  139 |   valid=0;
+      |   ^~~~~
+At top level:
+../src/Modbus.c:32:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   32 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:28:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   28 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:11:05 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c: In function ‘ReadAddress’:
+../src/Modbus.c:142:3: error: ‘valid’ undeclared (first use in this function)
+  142 |   valid=0;
+      |   ^~~~~
+../src/Modbus.c:142:3: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+../src/Modbus.c:35:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   35 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:31:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   31 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:11:28 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:26:1: error: unknown type name ‘uint8_t’; did you mean ‘u_int8_t’?
+   26 | uint8_t valid = 0;
+      | ^~~~~~~
+      | u_int8_t
+../src/Modbus.c:37:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   37 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   33 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [src/subdir.mk:33: src/Modbus.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:12:08 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:37:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   37 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   33 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Modbus.c
+ 
+Building file: ../src/Modbus_Circutor_CVM_1D_Registers.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus_Circutor_CVM_1D_Registers.d" -MT"src/Modbus_Circutor_CVM_1D_Registers.o" -o "src/Modbus_Circutor_CVM_1D_Registers.o" "../src/Modbus_Circutor_CVM_1D_Registers.c"
+Finished building: ../src/Modbus_Circutor_CVM_1D_Registers.c
+ 
+Building file: ../src/Serial.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Serial.d" -MT"src/Serial.o" -o "src/Serial.o" "../src/Serial.c"
+Finished building: ../src/Serial.c
+ 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp:23:10: fatal error: Serial.h: Bestand of map bestaat niet
+   23 | #include <Serial.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:40: src/TestARM.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:12:30 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:36:9: warning: unused variable ‘error’ [-Wunused-variable]
+   36 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: ./src/TestARM.o: in function `main':
+/home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:43: undefined reference to `openserial(char*)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:50: undefined reference to `ReadAddress(int, unsigned char, unsigned int, unsigned char)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:51: undefined reference to `closeserial(int)'
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:15:24 **** Clean-only build of configuration Debug for project TestARM ****
+make clean 
+rm -rf ./src/Modbus.d ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.d ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.d ./src/Serial.o ./src/TestARM.d ./src/TestARM.o
+rm -rf TestARM
+ 
+19:15:24 **** Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:37:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   37 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   33 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Modbus.c
+ 
+Building file: ../src/Modbus_Circutor_CVM_1D_Registers.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus_Circutor_CVM_1D_Registers.d" -MT"src/Modbus_Circutor_CVM_1D_Registers.o" -o "src/Modbus_Circutor_CVM_1D_Registers.o" "../src/Modbus_Circutor_CVM_1D_Registers.c"
+Finished building: ../src/Modbus_Circutor_CVM_1D_Registers.c
+ 
+Building file: ../src/Serial.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Serial.d" -MT"src/Serial.o" -o "src/Serial.o" "../src/Serial.c"
+Finished building: ../src/Serial.c
+ 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:36:9: warning: unused variable ‘error’ [-Wunused-variable]
+   36 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: ./src/TestARM.o: in function `main':
+/home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:43: undefined reference to `openserial(char*)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:50: undefined reference to `ReadAddress(int, unsigned char, unsigned int, unsigned char)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:51: undefined reference to `closeserial(int)'
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:17:15 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:36:9: warning: unused variable ‘error’ [-Wunused-variable]
+   36 |     int error = 0;
+      |         ^~~~~
+../src/TestARM.cpp:45:5: warning: ‘fd’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   45 |     if (!fd) {
+      |     ^~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: ./src/TestARM.o: in function `main':
+/home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:50: undefined reference to `ReadAddress(int, unsigned char, unsigned int, unsigned char)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:51: undefined reference to `closeserial(int)'
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:25:58 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:36:9: warning: unused variable ‘error’ [-Wunused-variable]
+   36 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: ./src/TestARM.o: in function `main':
+/home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:43: undefined reference to `openserial(char*)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:50: undefined reference to `ReadAddress(int, unsigned char, unsigned int, unsigned char)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:51: undefined reference to `closeserial(int)'
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:27:10 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:37:9: warning: unused variable ‘error’ [-Wunused-variable]
+   37 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: ./src/TestARM.o: in function `main':
+/home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:44: undefined reference to `openserial(char*)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:51: undefined reference to `ReadAddress(int, unsigned char, unsigned int, unsigned char)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:52: undefined reference to `closeserial(int)'
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:29:21 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:46:5: error: expected initializer before ‘if’
+   46 |     if (!fd) {
+      |     ^~
+../src/TestARM.cpp:37:9: warning: unused variable ‘error’ [-Wunused-variable]
+   37 |     int error = 0;
+      |         ^~~~~
+make[1]: *** [src/subdir.mk:40: src/TestARM.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:29:43 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:37:9: warning: unused variable ‘error’ [-Wunused-variable]
+   37 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: ./src/TestARM.o: in function `main':
+/home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:43: undefined reference to `getCTS(int)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:51: undefined reference to `ReadAddress(int, unsigned char, unsigned int, unsigned char)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:52: undefined reference to `closeserial(int)'
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:33:04 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:37:9: warning: unused variable ‘error’ [-Wunused-variable]
+   37 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: ./src/TestARM.o: in function `main':
+/home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:44: undefined reference to `openserial(char*)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:51: undefined reference to `ReadAddress(int, unsigned char, unsigned int, unsigned char)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:52: undefined reference to `closeserial(int)'
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:34:18 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:37:9: warning: unused variable ‘error’ [-Wunused-variable]
+   37 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: ./src/TestARM.o: in function `main':
+/home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:44: undefined reference to `openserial(char*)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:51: undefined reference to `ReadAddress(int, unsigned char, unsigned int, unsigned char)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:52: undefined reference to `closeserial(int)'
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:36:10 **** Clean-only build of configuration Debug for project TestARM ****
+make clean 
+rm -rf ./src/Modbus.d ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.d ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.d ./src/Serial.o ./src/TestARM.d ./src/TestARM.o
+rm -rf TestARM
+ 
+19:36:10 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:37:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   37 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   33 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Modbus.c
+ 
+Building file: ../src/Modbus_Circutor_CVM_1D_Registers.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus_Circutor_CVM_1D_Registers.d" -MT"src/Modbus_Circutor_CVM_1D_Registers.o" -o "src/Modbus_Circutor_CVM_1D_Registers.o" "../src/Modbus_Circutor_CVM_1D_Registers.c"
+Finished building: ../src/Modbus_Circutor_CVM_1D_Registers.c
+ 
+Building file: ../src/Serial.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Serial.d" -MT"src/Serial.o" -o "src/Serial.o" "../src/Serial.c"
+Finished building: ../src/Serial.c
+ 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:37:9: warning: unused variable ‘error’ [-Wunused-variable]
+   37 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: ./src/TestARM.o: in function `main':
+/home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:44: undefined reference to `openserial(char*)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:51: undefined reference to `ReadAddress(int, unsigned char, unsigned int, unsigned char)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:52: undefined reference to `closeserial(int)'
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:36:20 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main(int, char**)’:
+../src/TestARM.cpp:36:9: warning: unused variable ‘error’ [-Wunused-variable]
+   36 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: ./src/TestARM.o: in function `main':
+/home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:43: undefined reference to `openserial(char*)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:50: undefined reference to `ReadAddress(int, unsigned char, unsigned int, unsigned char)'
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: /home/bart/beaglbone-projects/modbus_v3/TestARM/Debug/../src/TestARM.cpp:51: undefined reference to `closeserial(int)'
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:36:54 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:37:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   37 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   33 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Modbus.c
+ 
+Building file: ../src/Modbus_Circutor_CVM_1D_Registers.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus_Circutor_CVM_1D_Registers.d" -MT"src/Modbus_Circutor_CVM_1D_Registers.o" -o "src/Modbus_Circutor_CVM_1D_Registers.o" "../src/Modbus_Circutor_CVM_1D_Registers.c"
+Finished building: ../src/Modbus_Circutor_CVM_1D_Registers.c
+ 
+Building file: ../src/Serial.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Serial.d" -MT"src/Serial.o" -o "src/Serial.o" "../src/Serial.c"
+Finished building: ../src/Serial.c
+ 
+Building file: ../src/TestARM.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.c"
+../src/TestARM.c:9:10: fatal error: iostream: Bestand of map bestaat niet
+    9 | #include <iostream>
+      |          ^~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:29: src/TestARM.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+19:37:14 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.c"
+../src/TestARM.c: In function ‘main’:
+../src/TestARM.c:36:9: warning: unused variable ‘error’ [-Wunused-variable]
+   36 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+19:39:26 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.c"
+../src/TestARM.c: In function ‘main’:
+../src/TestARM.c:36:9: warning: unused variable ‘error’ [-Wunused-variable]
+   36 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+13:00:58 **** Clean-only build of configuration Debug for project TestARM ****
+make clean 
+rm -rf ./src/Modbus.d ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.d ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.d ./src/Serial.o ./src/TestARM.d ./src/TestARM.o
+rm -rf TestARM
+ 
+13:00:59 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:37:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   37 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   33 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Modbus.c
+ 
+Building file: ../src/Modbus_Circutor_CVM_1D_Registers.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus_Circutor_CVM_1D_Registers.d" -MT"src/Modbus_Circutor_CVM_1D_Registers.o" -o "src/Modbus_Circutor_CVM_1D_Registers.o" "../src/Modbus_Circutor_CVM_1D_Registers.c"
+Finished building: ../src/Modbus_Circutor_CVM_1D_Registers.c
+ 
+Building file: ../src/Serial.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Serial.d" -MT"src/Serial.o" -o "src/Serial.o" "../src/Serial.c"
+Finished building: ../src/Serial.c
+ 
+Building file: ../src/TestARM.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.c"
+../src/TestARM.c: In function ‘main’:
+../src/TestARM.c:36:9: warning: unused variable ‘error’ [-Wunused-variable]
+   36 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+13:01:54 **** Clean-only build of configuration Debug for project TestARM ****
+make clean 
+rm -rf ./src/Modbus.d ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.d ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.d ./src/Serial.o ./src/TestARM.d ./src/TestARM.o
+rm -rf TestARM
+ 
+13:01:55 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:37:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   37 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   33 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Modbus.c
+ 
+Building file: ../src/Modbus_Circutor_CVM_1D_Registers.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus_Circutor_CVM_1D_Registers.d" -MT"src/Modbus_Circutor_CVM_1D_Registers.o" -o "src/Modbus_Circutor_CVM_1D_Registers.o" "../src/Modbus_Circutor_CVM_1D_Registers.c"
+Finished building: ../src/Modbus_Circutor_CVM_1D_Registers.c
+ 
+Building file: ../src/Serial.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Serial.d" -MT"src/Serial.o" -o "src/Serial.o" "../src/Serial.c"
+Finished building: ../src/Serial.c
+ 
+Building file: ../src/TestARM.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.c"
+../src/TestARM.c: In function ‘main’:
+../src/TestARM.c:36:9: warning: unused variable ‘error’ [-Wunused-variable]
+   36 |     int error = 0;
+      |         ^~~~~
+Finished building: ../src/TestARM.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+13:06:14 **** Clean-only build of configuration Debug for project TestARM ****
+make clean 
+rm -rf ./src/Modbus.d ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.d ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.d ./src/Serial.o ./src/TestARM.d ./src/TestARM.o
+rm -rf TestARM
+ 
+13:06:15 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:37:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   37 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   33 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Modbus.c
+ 
+Building file: ../src/Modbus_Circutor_CVM_1D_Registers.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus_Circutor_CVM_1D_Registers.d" -MT"src/Modbus_Circutor_CVM_1D_Registers.o" -o "src/Modbus_Circutor_CVM_1D_Registers.o" "../src/Modbus_Circutor_CVM_1D_Registers.c"
+Finished building: ../src/Modbus_Circutor_CVM_1D_Registers.c
+ 
+Building file: ../src/Serial.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Serial.d" -MT"src/Serial.o" -o "src/Serial.o" "../src/Serial.c"
+Finished building: ../src/Serial.c
+ 
+Building file: ../src/TestARM.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.c"
+../src/TestARM.c:28:1: error: multiple storage classes in declaration specifiers
+   28 | extern static int Circutor_CVM_1D_Address;
+      | ^~~~~~
+../src/TestARM.c: In function ‘main’:
+../src/TestARM.c:37:9: warning: unused variable ‘error’ [-Wunused-variable]
+   37 |     int error = 0;
+      |         ^~~~~
+In file included from ../src/TestARM.c:25:
+At top level:
+../src/Modbus_Circutor_CVM_1D_Registers.h:31:13: warning: ‘RegisterNames_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   31 | static char RegisterNames_Circutor_CVM_1D[][50] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus_Circutor_CVM_1D_Registers.h:16:12: warning: ‘Registers_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   16 | static int Registers_Circutor_CVM_1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~
+make[1]: *** [src/subdir.mk:29: src/TestARM.o] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+13:06:46 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.c"
+../src/TestARM.c: In function ‘main’:
+../src/TestARM.c:35:9: warning: unused variable ‘error’ [-Wunused-variable]
+   35 |     int error = 0;
+      |         ^~~~~
+In file included from ../src/TestARM.c:25:
+At top level:
+../src/Modbus_Circutor_CVM_1D_Registers.h:31:13: warning: ‘RegisterNames_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   31 | static char RegisterNames_Circutor_CVM_1D[][50] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus_Circutor_CVM_1D_Registers.h:16:12: warning: ‘Registers_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   16 | static int Registers_Circutor_CVM_1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/TestARM.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+13:11:15 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:37:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   37 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   33 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Modbus.c
+ 
+Building file: ../src/TestARM.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.c"
+../src/TestARM.c: In function ‘main’:
+../src/TestARM.c:35:9: warning: unused variable ‘error’ [-Wunused-variable]
+   35 |     int error = 0;
+      |         ^~~~~
+In file included from ../src/TestARM.c:25:
+At top level:
+../src/Modbus_Circutor_CVM_1D_Registers.h:31:13: warning: ‘RegisterNames_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   31 | static char RegisterNames_Circutor_CVM_1D[][50] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/TestARM.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+13:12:49 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.c"
+../src/TestARM.c: In function ‘main’:
+../src/TestARM.c:35:9: warning: unused variable ‘error’ [-Wunused-variable]
+   35 |     int error = 0;
+      |         ^~~~~
+In file included from ../src/TestARM.c:25:
+At top level:
+../src/Modbus_Circutor_CVM_1D_Registers.h:31:13: warning: ‘RegisterNames_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   31 | static char RegisterNames_Circutor_CVM_1D[][50] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/TestARM.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+18:27:28 **** Clean-only build of configuration Debug for project TestARM ****
+make clean 
+rm -rf ./src/Modbus.d ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.d ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.d ./src/Serial.o ./src/TestARM.d ./src/TestARM.o
+rm -rf TestARM
+ 
+18:27:29 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:37:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   37 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   33 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Modbus.c
+ 
+Building file: ../src/Modbus_Circutor_CVM_1D_Registers.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus_Circutor_CVM_1D_Registers.d" -MT"src/Modbus_Circutor_CVM_1D_Registers.o" -o "src/Modbus_Circutor_CVM_1D_Registers.o" "../src/Modbus_Circutor_CVM_1D_Registers.c"
+Finished building: ../src/Modbus_Circutor_CVM_1D_Registers.c
+ 
+Building file: ../src/Serial.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Serial.d" -MT"src/Serial.o" -o "src/Serial.o" "../src/Serial.c"
+Finished building: ../src/Serial.c
+ 
+Building file: ../src/TestARM.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.c"
+../src/TestARM.c: In function ‘main’:
+../src/TestARM.c:35:9: warning: unused variable ‘error’ [-Wunused-variable]
+   35 |     int error = 0;
+      |         ^~~~~
+In file included from ../src/TestARM.c:25:
+At top level:
+../src/Modbus_Circutor_CVM_1D_Registers.h:31:13: warning: ‘RegisterNames_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   31 | static char RegisterNames_Circutor_CVM_1D[][50] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/TestARM.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+13:47:22 **** Build of configuration Debug for project TestARM ****
+make all 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+13:49:56 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+../src/Modbus.c:37:17: warning: ‘RegisterNamesCircutorCVM1D’ defined but not used [-Wunused-variable]
+   37 | static u_int8_t RegisterNamesCircutorCVM1D[][50] = {
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus.c:33:12: warning: ‘RegistersCircutorCVM1D’ defined but not used [-Wunused-variable]
+   33 | static int RegistersCircutorCVM1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Modbus.c
+ 
+Building file: ../src/Modbus_Circutor_CVM_1D_Registers.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus_Circutor_CVM_1D_Registers.d" -MT"src/Modbus_Circutor_CVM_1D_Registers.o" -o "src/Modbus_Circutor_CVM_1D_Registers.o" "../src/Modbus_Circutor_CVM_1D_Registers.c"
+Finished building: ../src/Modbus_Circutor_CVM_1D_Registers.c
+ 
+Building file: ../src/Serial.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Serial.d" -MT"src/Serial.o" -o "src/Serial.o" "../src/Serial.c"
+Finished building: ../src/Serial.c
+ 
+Building file: ../src/main.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function ‘main’:
+../src/main.c:35:9: warning: unused variable ‘error’ [-Wunused-variable]
+   35 |     int error = 0;
+      |         ^~~~~
+In file included from ../src/main.c:25:
+At top level:
+../src/Modbus_Circutor_CVM_1D_Registers.h:31:13: warning: ‘RegisterNames_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   31 | static char RegisterNames_Circutor_CVM_1D[][50] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/main.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+13:50:35 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+Finished building: ../src/Modbus.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.o ./src/main.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+15:13:21 **** Clean-only build of configuration Debug for project TestARM ****
+make clean 
+rm -rf ./src/Modbus.d ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.d ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/Serial.d ./src/Serial.o ./src/main.d ./src/main.o
+rm -rf TestARM
+ 
+15:13:22 **** Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Base64.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Base64.d" -MT"src/Base64.o" -o "src/Base64.o" "../src/Base64.c"
+Finished building: ../src/Base64.c
+ 
+Building file: ../src/Clients.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clients.d" -MT"src/Clients.o" -o "src/Clients.o" "../src/Clients.c"
+Finished building: ../src/Clients.c
+ 
+Building file: ../src/Heap.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Heap.d" -MT"src/Heap.o" -o "src/Heap.o" "../src/Heap.c"
+Finished building: ../src/Heap.c
+ 
+Building file: ../src/LinkedList.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LinkedList.d" -MT"src/LinkedList.o" -o "src/LinkedList.o" "../src/LinkedList.c"
+Finished building: ../src/LinkedList.c
+ 
+Building file: ../src/Log.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Log.d" -MT"src/Log.o" -o "src/Log.o" "../src/Log.c"
+Finished building: ../src/Log.c
+ 
+Building file: ../src/MQTTClient.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTClient.d" -MT"src/MQTTClient.o" -o "src/MQTTClient.o" "../src/MQTTClient.c"
+Finished building: ../src/MQTTClient.c
+ 
+Building file: ../src/MQTTPacket.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTPacket.d" -MT"src/MQTTPacket.o" -o "src/MQTTPacket.o" "../src/MQTTPacket.c"
+Finished building: ../src/MQTTPacket.c
+ 
+Building file: ../src/MQTTPacketOut.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTPacketOut.d" -MT"src/MQTTPacketOut.o" -o "src/MQTTPacketOut.o" "../src/MQTTPacketOut.c"
+Finished building: ../src/MQTTPacketOut.c
+ 
+Building file: ../src/MQTTPersistence.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTPersistence.d" -MT"src/MQTTPersistence.o" -o "src/MQTTPersistence.o" "../src/MQTTPersistence.c"
+Finished building: ../src/MQTTPersistence.c
+ 
+Building file: ../src/MQTTPersistenceDefault.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTPersistenceDefault.d" -MT"src/MQTTPersistenceDefault.o" -o "src/MQTTPersistenceDefault.o" "../src/MQTTPersistenceDefault.c"
+Finished building: ../src/MQTTPersistenceDefault.c
+ 
+Building file: ../src/MQTTProperties.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTProperties.d" -MT"src/MQTTProperties.o" -o "src/MQTTProperties.o" "../src/MQTTProperties.c"
+Finished building: ../src/MQTTProperties.c
+ 
+Building file: ../src/MQTTProtocolClient.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTProtocolClient.d" -MT"src/MQTTProtocolClient.o" -o "src/MQTTProtocolClient.o" "../src/MQTTProtocolClient.c"
+Finished building: ../src/MQTTProtocolClient.c
+ 
+Building file: ../src/MQTTProtocolOut.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTProtocolOut.d" -MT"src/MQTTProtocolOut.o" -o "src/MQTTProtocolOut.o" "../src/MQTTProtocolOut.c"
+Finished building: ../src/MQTTProtocolOut.c
+ 
+Building file: ../src/MQTTReasonCodes.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTReasonCodes.d" -MT"src/MQTTReasonCodes.o" -o "src/MQTTReasonCodes.o" "../src/MQTTReasonCodes.c"
+Finished building: ../src/MQTTReasonCodes.c
+ 
+Building file: ../src/MQTTTime.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTTime.d" -MT"src/MQTTTime.o" -o "src/MQTTTime.o" "../src/MQTTTime.c"
+Finished building: ../src/MQTTTime.c
+ 
+Building file: ../src/Messages.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Messages.d" -MT"src/Messages.o" -o "src/Messages.o" "../src/Messages.c"
+Finished building: ../src/Messages.c
+ 
+Building file: ../src/OsWrapper.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OsWrapper.d" -MT"src/OsWrapper.o" -o "src/OsWrapper.o" "../src/OsWrapper.c"
+Finished building: ../src/OsWrapper.c
+ 
+Building file: ../src/Proxy.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proxy.d" -MT"src/Proxy.o" -o "src/Proxy.o" "../src/Proxy.c"
+Finished building: ../src/Proxy.c
+ 
+Building file: ../src/SHA1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SHA1.d" -MT"src/SHA1.o" -o "src/SHA1.o" "../src/SHA1.c"
+Finished building: ../src/SHA1.c
+ 
+Building file: ../src/SSLSocket.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SSLSocket.d" -MT"src/SSLSocket.o" -o "src/SSLSocket.o" "../src/SSLSocket.c"
+Finished building: ../src/SSLSocket.c
+ 
+Building file: ../src/Socket.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Socket.d" -MT"src/Socket.o" -o "src/Socket.o" "../src/Socket.c"
+Finished building: ../src/Socket.c
+ 
+Building file: ../src/SocketBuffer.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SocketBuffer.d" -MT"src/SocketBuffer.o" -o "src/SocketBuffer.o" "../src/SocketBuffer.c"
+Finished building: ../src/SocketBuffer.c
+ 
+Building file: ../src/StackTrace.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StackTrace.d" -MT"src/StackTrace.o" -o "src/StackTrace.o" "../src/StackTrace.c"
+Finished building: ../src/StackTrace.c
+ 
+Building file: ../src/Thread.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Thread.d" -MT"src/Thread.o" -o "src/Thread.o" "../src/Thread.c"
+Finished building: ../src/Thread.c
+ 
+Building file: ../src/Tree.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tree.d" -MT"src/Tree.o" -o "src/Tree.o" "../src/Tree.c"
+Finished building: ../src/Tree.c
+ 
+Building file: ../src/WebSocket.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/WebSocket.d" -MT"src/WebSocket.o" -o "src/WebSocket.o" "../src/WebSocket.c"
+Finished building: ../src/WebSocket.c
+ 
+Building file: ../src/main.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/utf-8.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utf-8.d" -MT"src/utf-8.o" -o "src/utf-8.o" "../src/utf-8.c"
+Finished building: ../src/utf-8.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Base64.o ./src/Clients.o ./src/Heap.o ./src/LinkedList.o ./src/Log.o ./src/MQTTClient.o ./src/MQTTPacket.o ./src/MQTTPacketOut.o ./src/MQTTPersistence.o ./src/MQTTPersistenceDefault.o ./src/MQTTProperties.o ./src/MQTTProtocolClient.o ./src/MQTTProtocolOut.o ./src/MQTTReasonCodes.o ./src/MQTTTime.o ./src/Messages.o ./src/OsWrapper.o ./src/Proxy.o ./src/SHA1.o ./src/SSLSocket.o ./src/Socket.o ./src/SocketBuffer.o ./src/StackTrace.o ./src/Thread.o ./src/Tree.o ./src/WebSocket.o ./src/main.o ./src/utf-8.o    -l-pthread -l-dl
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: cannot find -l-pthread
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: cannot find -l-dl
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+15:14:14 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Base64.o ./src/Clients.o ./src/Heap.o ./src/LinkedList.o ./src/Log.o ./src/MQTTClient.o ./src/MQTTPacket.o ./src/MQTTPacketOut.o ./src/MQTTPersistence.o ./src/MQTTPersistenceDefault.o ./src/MQTTProperties.o ./src/MQTTProtocolClient.o ./src/MQTTProtocolOut.o ./src/MQTTReasonCodes.o ./src/MQTTTime.o ./src/Messages.o ./src/OsWrapper.o ./src/Proxy.o ./src/SHA1.o ./src/SSLSocket.o ./src/Socket.o ./src/SocketBuffer.o ./src/StackTrace.o ./src/Thread.o ./src/Tree.o ./src/WebSocket.o ./src/main.o ./src/utf-8.o    -l-pthread -l-dl
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: cannot find -l-pthread
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: cannot find -l-dl
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+15:16:35 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Base64.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Base64.d" -MT"src/Base64.o" -o "src/Base64.o" "../src/Base64.c"
+Finished building: ../src/Base64.c
+ 
+Building file: ../src/Clients.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clients.d" -MT"src/Clients.o" -o "src/Clients.o" "../src/Clients.c"
+Finished building: ../src/Clients.c
+ 
+Building file: ../src/Heap.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Heap.d" -MT"src/Heap.o" -o "src/Heap.o" "../src/Heap.c"
+Finished building: ../src/Heap.c
+ 
+Building file: ../src/LinkedList.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LinkedList.d" -MT"src/LinkedList.o" -o "src/LinkedList.o" "../src/LinkedList.c"
+Finished building: ../src/LinkedList.c
+ 
+Building file: ../src/Log.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Log.d" -MT"src/Log.o" -o "src/Log.o" "../src/Log.c"
+Finished building: ../src/Log.c
+ 
+Building file: ../src/MQTTClient.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTClient.d" -MT"src/MQTTClient.o" -o "src/MQTTClient.o" "../src/MQTTClient.c"
+Finished building: ../src/MQTTClient.c
+ 
+Building file: ../src/MQTTPacket.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTPacket.d" -MT"src/MQTTPacket.o" -o "src/MQTTPacket.o" "../src/MQTTPacket.c"
+Finished building: ../src/MQTTPacket.c
+ 
+Building file: ../src/MQTTPacketOut.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTPacketOut.d" -MT"src/MQTTPacketOut.o" -o "src/MQTTPacketOut.o" "../src/MQTTPacketOut.c"
+Finished building: ../src/MQTTPacketOut.c
+ 
+Building file: ../src/MQTTPersistence.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTPersistence.d" -MT"src/MQTTPersistence.o" -o "src/MQTTPersistence.o" "../src/MQTTPersistence.c"
+Finished building: ../src/MQTTPersistence.c
+ 
+Building file: ../src/MQTTPersistenceDefault.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTPersistenceDefault.d" -MT"src/MQTTPersistenceDefault.o" -o "src/MQTTPersistenceDefault.o" "../src/MQTTPersistenceDefault.c"
+Finished building: ../src/MQTTPersistenceDefault.c
+ 
+Building file: ../src/MQTTProperties.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTProperties.d" -MT"src/MQTTProperties.o" -o "src/MQTTProperties.o" "../src/MQTTProperties.c"
+Finished building: ../src/MQTTProperties.c
+ 
+Building file: ../src/MQTTProtocolClient.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTProtocolClient.d" -MT"src/MQTTProtocolClient.o" -o "src/MQTTProtocolClient.o" "../src/MQTTProtocolClient.c"
+Finished building: ../src/MQTTProtocolClient.c
+ 
+Building file: ../src/MQTTProtocolOut.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTProtocolOut.d" -MT"src/MQTTProtocolOut.o" -o "src/MQTTProtocolOut.o" "../src/MQTTProtocolOut.c"
+Finished building: ../src/MQTTProtocolOut.c
+ 
+Building file: ../src/MQTTReasonCodes.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTReasonCodes.d" -MT"src/MQTTReasonCodes.o" -o "src/MQTTReasonCodes.o" "../src/MQTTReasonCodes.c"
+Finished building: ../src/MQTTReasonCodes.c
+ 
+Building file: ../src/MQTTTime.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTTime.d" -MT"src/MQTTTime.o" -o "src/MQTTTime.o" "../src/MQTTTime.c"
+Finished building: ../src/MQTTTime.c
+ 
+Building file: ../src/Messages.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Messages.d" -MT"src/Messages.o" -o "src/Messages.o" "../src/Messages.c"
+Finished building: ../src/Messages.c
+ 
+Building file: ../src/OsWrapper.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OsWrapper.d" -MT"src/OsWrapper.o" -o "src/OsWrapper.o" "../src/OsWrapper.c"
+Finished building: ../src/OsWrapper.c
+ 
+Building file: ../src/Proxy.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proxy.d" -MT"src/Proxy.o" -o "src/Proxy.o" "../src/Proxy.c"
+Finished building: ../src/Proxy.c
+ 
+Building file: ../src/SHA1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SHA1.d" -MT"src/SHA1.o" -o "src/SHA1.o" "../src/SHA1.c"
+Finished building: ../src/SHA1.c
+ 
+Building file: ../src/SSLSocket.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SSLSocket.d" -MT"src/SSLSocket.o" -o "src/SSLSocket.o" "../src/SSLSocket.c"
+Finished building: ../src/SSLSocket.c
+ 
+Building file: ../src/Socket.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Socket.d" -MT"src/Socket.o" -o "src/Socket.o" "../src/Socket.c"
+Finished building: ../src/Socket.c
+ 
+Building file: ../src/SocketBuffer.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SocketBuffer.d" -MT"src/SocketBuffer.o" -o "src/SocketBuffer.o" "../src/SocketBuffer.c"
+Finished building: ../src/SocketBuffer.c
+ 
+Building file: ../src/StackTrace.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StackTrace.d" -MT"src/StackTrace.o" -o "src/StackTrace.o" "../src/StackTrace.c"
+Finished building: ../src/StackTrace.c
+ 
+Building file: ../src/Thread.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Thread.d" -MT"src/Thread.o" -o "src/Thread.o" "../src/Thread.c"
+Finished building: ../src/Thread.c
+ 
+Building file: ../src/Tree.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tree.d" -MT"src/Tree.o" -o "src/Tree.o" "../src/Tree.c"
+Finished building: ../src/Tree.c
+ 
+Building file: ../src/WebSocket.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/WebSocket.d" -MT"src/WebSocket.o" -o "src/WebSocket.o" "../src/WebSocket.c"
+Finished building: ../src/WebSocket.c
+ 
+Building file: ../src/main.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/utf-8.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utf-8.d" -MT"src/utf-8.o" -o "src/utf-8.o" "../src/utf-8.c"
+Finished building: ../src/utf-8.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Base64.o ./src/Clients.o ./src/Heap.o ./src/LinkedList.o ./src/Log.o ./src/MQTTClient.o ./src/MQTTPacket.o ./src/MQTTPacketOut.o ./src/MQTTPersistence.o ./src/MQTTPersistenceDefault.o ./src/MQTTProperties.o ./src/MQTTProtocolClient.o ./src/MQTTProtocolOut.o ./src/MQTTReasonCodes.o ./src/MQTTTime.o ./src/Messages.o ./src/OsWrapper.o ./src/Proxy.o ./src/SHA1.o ./src/SSLSocket.o ./src/Socket.o ./src/SocketBuffer.o ./src/StackTrace.o ./src/Thread.o ./src/Tree.o ./src/WebSocket.o ./src/main.o ./src/utf-8.o    -l-pthread -l-dl
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: cannot find -l-pthread
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: cannot find -l-dl
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+15:18:19 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-gcc  -o "TestARM" ./src/Base64.o ./src/Clients.o ./src/Heap.o ./src/LinkedList.o ./src/Log.o ./src/MQTTClient.o ./src/MQTTPacket.o ./src/MQTTPacketOut.o ./src/MQTTPersistence.o ./src/MQTTPersistenceDefault.o ./src/MQTTProperties.o ./src/MQTTProtocolClient.o ./src/MQTTProtocolOut.o ./src/MQTTReasonCodes.o ./src/MQTTTime.o ./src/Messages.o ./src/OsWrapper.o ./src/Proxy.o ./src/SHA1.o ./src/SSLSocket.o ./src/Socket.o ./src/SocketBuffer.o ./src/StackTrace.o ./src/Thread.o ./src/Tree.o ./src/WebSocket.o ./src/main.o ./src/utf-8.o    -l-pthread -l-dl
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: cannot find -l-pthread
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: cannot find -l-dl
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+15:21:57 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Base64.o ./src/Clients.o ./src/Heap.o ./src/LinkedList.o ./src/Log.o ./src/MQTTClient.o ./src/MQTTPacket.o ./src/MQTTPacketOut.o ./src/MQTTPersistence.o ./src/MQTTPersistenceDefault.o ./src/MQTTProperties.o ./src/MQTTProtocolClient.o ./src/MQTTProtocolOut.o ./src/MQTTReasonCodes.o ./src/MQTTTime.o ./src/Messages.o ./src/OsWrapper.o ./src/Proxy.o ./src/SHA1.o ./src/SSLSocket.o ./src/Socket.o ./src/SocketBuffer.o ./src/StackTrace.o ./src/Thread.o ./src/Tree.o ./src/WebSocket.o ./src/main.o ./src/utf-8.o    -l-pthread -l-dl
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: cannot find -l-pthread
+/usr/lib/gcc-cross/arm-linux-gnueabihf/10/../../../../arm-linux-gnueabihf/bin/ld: cannot find -l-dl
+collect2: error: ld returned 1 exit status
+make[1]: *** [makefile:59: TestARM] Fout 1
+make: *** [makefile:50: all] Fout 2
+"make all" terminated with exit code 2. Build might be incomplete.
+15:24:54 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Base64.o ./src/Clients.o ./src/Heap.o ./src/LinkedList.o ./src/Log.o ./src/MQTTClient.o ./src/MQTTPacket.o ./src/MQTTPacketOut.o ./src/MQTTPersistence.o ./src/MQTTPersistenceDefault.o ./src/MQTTProperties.o ./src/MQTTProtocolClient.o ./src/MQTTProtocolOut.o ./src/MQTTReasonCodes.o ./src/MQTTTime.o ./src/Messages.o ./src/OsWrapper.o ./src/Proxy.o ./src/SHA1.o ./src/SSLSocket.o ./src/Socket.o ./src/SocketBuffer.o ./src/StackTrace.o ./src/Thread.o ./src/Tree.o ./src/WebSocket.o ./src/main.o ./src/utf-8.o    -ldl -lpthread
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+15:25:25 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/main.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I-dl -I-pthread -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Base64.o ./src/Clients.o ./src/Heap.o ./src/LinkedList.o ./src/Log.o ./src/MQTTClient.o ./src/MQTTPacket.o ./src/MQTTPacketOut.o ./src/MQTTPersistence.o ./src/MQTTPersistenceDefault.o ./src/MQTTProperties.o ./src/MQTTProtocolClient.o ./src/MQTTProtocolOut.o ./src/MQTTReasonCodes.o ./src/MQTTTime.o ./src/Messages.o ./src/OsWrapper.o ./src/Proxy.o ./src/SHA1.o ./src/SSLSocket.o ./src/Socket.o ./src/SocketBuffer.o ./src/StackTrace.o ./src/Thread.o ./src/Tree.o ./src/WebSocket.o ./src/main.o ./src/utf-8.o    -ldl -lpthread
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 

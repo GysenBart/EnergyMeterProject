@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TestARM/src/VersionInfo.h.in&apos; to &apos;VersionInfo.h&apos;" description="Rename resource &apos;VersionInfo.h.in&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/VersionInfo.h.in" name="VersionInfo.h" stamp="1669229053106" updateReferences="true"/>
+</session>

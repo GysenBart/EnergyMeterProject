@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 6 resources" deleteContents="false" description="Delete 6 resources" element1="/TestARM/src/Modbus_Circutor_CVM_1D_Registers.c" element2="/TestARM/src/Modbus_Circutor_CVM_1D_Registers.h" element3="/TestARM/src/Modbus.c" element4="/TestARM/src/Modbus.h" element5="/TestARM/src/Serial.c" element6="/TestARM/src/Serial.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="6" stamp="1674308654137"/>
+</session>

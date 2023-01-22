@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;TestARM/Asynchronous sub main&apos;" deleteContents="false" description="Delete resource &apos;TestARM/Asynchronous sub main&apos;" element1="/TestARM/Asynchronous sub main" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1672247899077"/>&#x0A;<refactoring comment="Delete resource &apos;TestARM/Synchronous pub main&apos;" deleteContents="false" description="Delete resource &apos;TestARM/Synchronous pub main&apos;" element1="/TestARM/Synchronous pub main" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1672247905740"/>
+</session>

@@ -1,0 +1,80 @@
+/*
+ * Modbus_Circutor_CVM_1D_Registers.c
+ *
+ *  Created on: 25 okt. 2022
+ *      Author: bart
+ */
+
+#include <stdio.h>
+#include <string.h>
+#include "Modbus.h"
+#include "Modbus_Circutor_CVM_1D_Registers.h"
+
+
+#define	VOLTAGE 		0
+#define CURRENT			3
+#define ACTIVEPOWER		6
+
+/*
+ * This function is made to convert the data into the readable energy units.
+ * examples -> 230,12000 (Volts), 0,3000000 (Ampere), ...
+ */
+
+float ConvertToRegisterUnits(int data, int type)
+{
+	float ConvertedData;
+	if (type == VOLTAGE)
+	{
+		ConvertedData = (float) data;
+		ConvertedData = (ConvertedData/10);
+	}
+
+	else
+	{
+		ConvertedData = (float) data;
+		ConvertedData = (ConvertedData/100);
+	}
+
+	return ConvertedData;
+}
+
+/*
+ * This function reads the Circutor energy meter registers and put the data and the register type into the struct
+ * so we can send it with mqtt to the cloud.
+ * Type: register that we want to read.( defined in the main code)
+ * fd: file descriptor, where the data coming from.
+ * mqtt *data: the struct where al the data goes to.
+ *
+ * The function also combines the first part of the topic (defined in the main code)
+ * and the second part (the register names).
+ */
+
+void Readmodbus_CircutorData_MqttTopicPayload(int type, int fd, struct mqtt *data)
+{
+	int i;
+    int ReceivedData;
+    data->SizeTopicPartOne = 45;
+    data->SizeRegisterArray = 50;
+    int size = data->SizeTopicPartOne + data->SizeRegisterArray;
+    unsigned char Topic[size];
+
+
+    ReceivedData = ReadAddress(fd, Circutor_CVM_1D_Address, Registers_Circutor_CVM_1D[type], 0); // debug the frame set 4the arg to 1.
+    data->Payload = ConvertToRegisterUnits(ReceivedData, type);
+
+    strcpy(data->TopicPartTwo, RegisterNames_Circutor_CVM_1D[type]);
+
+    for (i = 0; i < data->SizeTopicPartOne; i++)
+    {
+    	Topic[i] = data->TopicPartOne[i];
+    }
+    for (i = 0; i < data->SizeRegisterArray; i++)
+    {
+    	Topic[data->SizeTopicPartOne + i] = data->TopicPartTwo[i];
+    }
+
+    strcpy(data->Topic, Topic);
+
+
+}
+

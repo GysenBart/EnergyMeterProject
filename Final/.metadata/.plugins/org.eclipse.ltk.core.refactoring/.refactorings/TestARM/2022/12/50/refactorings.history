@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TestARM/temp&apos; to &apos;Synchronous pub main&apos;" description="Rename resource &apos;temp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="temp" name="Synchronous pub main" stamp="1671131027216" updateReferences="true"/>
+</session>
