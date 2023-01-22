@@ -1,0 +1,472 @@
+15:13:43 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+15:15:44 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+15:16:11 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+16:38:11 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+16:40:58 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+../src/TestARM.cpp: In function ‘int main()’:
+../src/TestARM.cpp:14:2: error: ‘c’ was not declared in this scope
+   14 |  c++;
+      |  ^
+../src/TestARM.cpp:13:6: warning: unused variable ‘x’ [-Wunused-variable]
+   13 |  int x = 5;
+      |      ^
+make: *** [src/subdir.mk:20: src/TestARM.o] Fout 1
+"make all" terminated with exit code 2. Build might be incomplete.
+16:41:45 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+16:45:57 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make: Er hoeft niets gedaan te worden voor 'all'.
+16:46:56 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make: Er hoeft niets gedaan te worden voor 'all'.
+16:47:25 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+20:29:22 **** Build of configuration Release for project TestARM ****
+make all 
+make: Er hoeft niets gedaan te worden voor 'all'.
+20:32:35 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make: Er hoeft niets gedaan te worden voor 'all'.
+20:32:47 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+20:36:39 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+20:38:13 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make: Er hoeft niets gedaan te worden voor 'all'.
+20:38:27 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+20:39:55 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+20:43:04 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+20:45:49 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+20:47:23 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+08:47:01 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+08:47:33 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+08:50:19 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+08:51:45 **** Clean-only build of configuration Debug for project TestARM ****
+make clean 
+rm -rf ./src/TestARM.d ./src/TestARM.o
+rm -rf TestARM
+ 
+08:51:46 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+08:56:32 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+scp: /home/debian/BBBTest: Text file busy
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+ 
+08:57:07 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+scp: /home/debian/BBBTest: Text file busy
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+ 
+08:57:15 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+17:12:18 **** Build of configuration Release for project TestARM ****
+make all 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+17:53:10 **** Incremental Build of configuration Release for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+17:54:04 **** Clean-only build of configuration Debug for project TestARM ****
+make clean 
+rm -rf ./src/TestARM.d ./src/TestARM.o
+rm -rf TestARM
+ 
+17:54:05 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+ssh: connect to host 192.168.7.2 port 22: Connection timed out
+lost connection
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+ 
+17:56:28 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/TestARM.cpp
+Invoking: Cross G++ Compiler
+arm-linux-gnueabihf-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TestARM.d" -MT"src/TestARM.o" -o "src/TestARM.o" "../src/TestARM.cpp"
+Finished building: ../src/TestARM.cpp
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+make: *** wait: Geen dochterprocessen.  Gestopt.
+make: *** Wachten op onvoltooide taken...
+make: *** wait: Geen dochterprocessen.  Gestopt.
+Command canceled
+17:57:15 **** Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+make: *** wait: Geen dochterprocessen.  Gestopt.
+make: *** Wachten op onvoltooide taken...
+make: *** wait: Geen dochterprocessen.  Gestopt.
+make[1]: [makefile:69: post-build] Fout 1 (genegeerd)
+Command canceled
+17:58:40 **** Build of configuration Debug for project TestARM ****
+make all 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/TestARM.o   
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+17:58:48 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+18:00:21 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 

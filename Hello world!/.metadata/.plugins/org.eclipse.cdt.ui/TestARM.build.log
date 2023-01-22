@@ -1,0 +1,16 @@
+10:13:22 **** Build of configuration Debug for project TestARM ****
+make all 
+make[1]: Er hoeft niets gedaan te worden voor 'main-build'.
+scp TestARM debian@192.168.7.2:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+
+10:13:23 Build Finished. 0 errors, 0 warnings. (took 990ms)
+
