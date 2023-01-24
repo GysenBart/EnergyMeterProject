@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_uYw1gEFWEe2lufZcdXuLZA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_uYw1gUFWEe2lufZcdXuLZA" bindingContexts="_uYyr20FWEe2lufZcdXuLZA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.cdt.ui.ExternalEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;unistd.h&quot; tooltip=&quot;/usr/arm-linux-gnueabihf/include/unistd.h&quot;>&#xA;&lt;persistable path=&quot;/usr/arm-linux-gnueabihf/include/unistd.h&quot; project=&quot;TestARM&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.cdt.ui.ExternalEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;termios.h&quot; tooltip=&quot;/usr/arm-linux-gnueabihf/include/termios.h&quot;>&#xA;&lt;persistable path=&quot;/usr/arm-linux-gnueabihf/include/termios.h&quot; project=&quot;TestARM&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;TestARM.cpp&quot; tooltip=&quot;TestARM/src/TestARM.cpp&quot;>&#xA;&lt;persistable path=&quot;/TestARM/src/TestARM.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.binaryEditor&quot; name=&quot;TestARM&quot; tooltip=&quot;TestARM/Debug/TestARM&quot;>&#xA;&lt;persistable path=&quot;/TestARM/Debug/TestARM&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.binaryEditor&quot; name=&quot;TestARM&quot; tooltip=&quot;TestARM/Release/TestARM&quot;>&#xA;&lt;persistable path=&quot;/TestARM/Release/TestARM&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;BBBTest&quot; tooltip=&quot;RemoteSystemsTempFiles/192.168.7.2/home/debian/BBBTest&quot;>&#xA;&lt;persistable path=&quot;/RemoteSystemsTempFiles/192.168.7.2/home/debian/BBBTest&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.cdt.ui.ExternalEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;termios-struct.h&quot; tooltip=&quot;/usr/arm-linux-gnueabihf/include/bits/termios-struct.h&quot;>&#xA;&lt;persistable path=&quot;/usr/arm-linux-gnueabihf/include/bits/termios-struct.h&quot; project=&quot;TestARM&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;TestARM.cpp&quot; tooltip=&quot;TestARM/src/TestARM.cpp&quot;>&#xA;&lt;persistable path=&quot;/TestARM/src/TestARM.cpp&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.cdt.ui.ExternalEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;fcntl-linux.h&quot; tooltip=&quot;/usr/arm-linux-gnueabihf/include/bits/fcntl-linux.h&quot;>&#xA;&lt;persistable path=&quot;/usr/arm-linux-gnueabihf/include/bits/fcntl-linux.h&quot; project=&quot;TestARM&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.cdt.ui.ExternalEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;unistd.h&quot; tooltip=&quot;/usr/arm-linux-gnueabihf/include/unistd.h&quot;>&#xA;&lt;persistable path=&quot;/usr/arm-linux-gnueabihf/include/unistd.h&quot; project=&quot;TestARM&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.cdt.ui.ExternalEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;termios.h&quot; tooltip=&quot;/usr/arm-linux-gnueabihf/include/termios.h&quot;>&#xA;&lt;persistable path=&quot;/usr/arm-linux-gnueabihf/include/termios.h&quot; project=&quot;TestARM&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.binaryEditor&quot; name=&quot;TestARM&quot; tooltip=&quot;TestARM/Debug/TestARM&quot;>&#xA;&lt;persistable path=&quot;/TestARM/Debug/TestARM&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.binaryEditor&quot; name=&quot;TestARM&quot; tooltip=&quot;TestARM/Release/TestARM&quot;>&#xA;&lt;persistable path=&quot;/TestARM/Release/TestARM&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;BBBTest&quot; tooltip=&quot;RemoteSystemsTempFiles/192.168.7.2/home/debian/BBBTest&quot;>&#xA;&lt;persistable path=&quot;/RemoteSystemsTempFiles/192.168.7.2/home/debian/BBBTest&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_uYw1gUFWEe2lufZcdXuLZA" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_uYw1gkFWEe2lufZcdXuLZA" label="%trimmedwindow.label.eclipseSDK" x="26" y="23" width="1554" height="1167">
     <persistedState key="coolBarVisible" value="true"/>
@@ -182,9 +182,9 @@
           <tags>persp.viewSC:org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view</tags>
           <tags>persp.viewSC:org.eclipse.cdt.debug.ui.debuggerConsoleView</tags>
           <tags>persp.viewSC:org.eclipse.cdt.dsf.gdb.ui.debugsources.view</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_uYw1m0FWEe2lufZcdXuLZA" selectedElement="_uYw1uEFWEe2lufZcdXuLZA">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_uYw1m0FWEe2lufZcdXuLZA" selectedElement="_uYw1nEFWEe2lufZcdXuLZA">
             <children xsi:type="basic:PartSashContainer" xmi:id="_uYw1nEFWEe2lufZcdXuLZA" containerData="7187" selectedElement="_uYw1rEFWEe2lufZcdXuLZA" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_uYw1nUFWEe2lufZcdXuLZA" containerData="1630" selectedElement="_uYw1nkFWEe2lufZcdXuLZA" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_uYw1nUFWEe2lufZcdXuLZA" containerData="1099" selectedElement="_uYw1nkFWEe2lufZcdXuLZA" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_uYw1nkFWEe2lufZcdXuLZA" elementId="org.eclipse.debug.internal.ui.NavigatorFolderView" containerData="5000" selectedElement="_uYw1n0FWEe2lufZcdXuLZA">
                   <tags>org.eclipse.e4.primaryNavigationStack</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_uYw1n0FWEe2lufZcdXuLZA" elementId="org.eclipse.debug.ui.DebugView" ref="_uYyD3UFWEe2lufZcdXuLZA" closeable="true">
@@ -239,7 +239,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_uYw1rEFWEe2lufZcdXuLZA" containerData="8370" selectedElement="_uYw1rUFWEe2lufZcdXuLZA" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_uYw1rEFWEe2lufZcdXuLZA" containerData="8901" selectedElement="_uYw1rUFWEe2lufZcdXuLZA" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_uYw1rUFWEe2lufZcdXuLZA" elementId="org.eclipse.ui.editorss" containerData="5246" ref="_uYxebEFWEe2lufZcdXuLZA"/>
                 <children xsi:type="basic:PartStack" xmi:id="_uYw1rkFWEe2lufZcdXuLZA" elementId="org.eclipse.debug.internal.ui.OutlineFolderView" containerData="3254" selectedElement="_uYw1r0FWEe2lufZcdXuLZA">
                   <tags>org.eclipse.e4.secondaryNavigationStack</tags>
@@ -352,13 +352,26 @@
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
+        <tags>noFocus</tags>
         <children xsi:type="basic:Part" xmi:id="_uYxebkFWEe2lufZcdXuLZA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="TestARM.cpp" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;TestARM.cpp&quot; partName=&quot;TestARM.cpp&quot; title=&quot;TestARM.cpp&quot; tooltip=&quot;TestARM/src/TestARM.cpp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/TestARM/src/TestARM.cpp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3735&quot; selectionTopPixel=&quot;2092&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;TestARM.cpp&quot; partName=&quot;TestARM.cpp&quot; title=&quot;TestARM.cpp&quot; tooltip=&quot;TestARM/src/TestARM.cpp&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/TestARM/src/TestARM.cpp&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1953&quot; selectionTopPixel=&quot;388&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_H3y-MJu4Ee2RQ9oRME-LEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="fcntl-linux.h" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;fcntl-linux.h&quot; partName=&quot;fcntl-linux.h&quot; title=&quot;fcntl-linux.h&quot; tooltip=&quot;/usr/arm-linux-gnueabihf/include/bits/fcntl-linux.h&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.cdt.ui.ExternalEditorInputFactory&quot; path=&quot;/usr/arm-linux-gnueabihf/include/bits/fcntl-linux.h&quot; project=&quot;TestARM&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;6&quot; selectionOffset=&quot;1504&quot; selectionTopPixel=&quot;1549&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_Qh0IAJu4Ee2RQ9oRME-LEQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="termios-struct.h" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;termios-struct.h&quot; partName=&quot;termios-struct.h&quot; title=&quot;termios-struct.h&quot; tooltip=&quot;/usr/arm-linux-gnueabihf/include/bits/termios-struct.h&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.cdt.ui.ExternalEditorInputFactory&quot; path=&quot;/usr/arm-linux-gnueabihf/include/bits/termios-struct.h&quot; project=&quot;TestARM&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1303&quot; selectionTopPixel=&quot;36&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
         </children>
       </children>
     </sharedElements>
@@ -664,7 +677,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_uYyEh0FWEe2lufZcdXuLZA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_2TSM0JgNEe2nMv0eFTR32A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_uY1vRkFWEe2lufZcdXuLZA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_WhC8AJu3Ee2RQ9oRME-LEQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_uY1vRkFWEe2lufZcdXuLZA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_uYyEl0FWEe2lufZcdXuLZA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -695,7 +708,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_uYyE-0FWEe2lufZcdXuLZA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_2TVQIJgNEe2nMv0eFTR32A" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_uY1u-UFWEe2lufZcdXuLZA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_WhF_UJu3Ee2RQ9oRME-LEQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_uY1u-UFWEe2lufZcdXuLZA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_uYyFB0FWEe2lufZcdXuLZA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
