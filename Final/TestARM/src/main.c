@@ -21,11 +21,8 @@
 #include "Modbus.h"
 #include "Modbus_Circutor_CVM_1D_Registers.h"
 #include "MQTTClient.h"
+#include "MQTT_Custom.h"
 
-#define ADDRESS     "tcp://test.mosquitto.org:1883"
-#define CLIENTID    "Circutor"
-#define QOS         1
-#define TIMEOUT     10000L
 
 
 
@@ -39,42 +36,9 @@ int main (int argc, char *argv[])
     int fd;
     char serialdev[] = "/dev/ttyUSB0";
 
+    int unit_state = VOLTAGE;
 
-    // Used with paho mqtt library
-    MQTTClient client;
-    MQTTClient_connectOptions conn_opts = MQTTClient_connectOptions_initializer;
-    MQTTClient_message pubmsg = MQTTClient_message_initializer;
-    MQTTClient_deliveryToken token;
-    int rc;
-
-
-    // Creating the mqtt client.
-    if ((rc = MQTTClient_create(&client, ADDRESS, CLIENTID,
-        MQTTCLIENT_PERSISTENCE_NONE, NULL)) != MQTTCLIENT_SUCCESS)
-    {
-         printf("Failed to create client, return code %d\n", rc);
-         exit(EXIT_FAILURE);
-    }
-
-    else
-    {
-    	printf("MQTT Client created.\n\n");
-    }
-
-    conn_opts.keepAliveInterval = 20;
-    conn_opts.cleansession = 1;
-
-
-    // Connecting to the mqtt broker.
-    if ((rc = MQTTClient_connect(client, &conn_opts)) != MQTTCLIENT_SUCCESS)
-    {
-        printf("Failed to connect, return code %d\n", rc);
-        exit(EXIT_FAILURE);
-    }
-    else
-    {
-    	printf("MQTT Client connected to the Mosquitto broker.\n\n");
-    }
+    MQTT_init();
 
 
     while(1)
@@ -87,160 +51,42 @@ int main (int argc, char *argv[])
             fprintf(stderr, "Error while initializing %s.\n", serialdev);
         }
 
+        switch(unit_state)
+        {
+        case VOLTAGE:
+            Readmodbus_CircutorData_MqttTopicPayload(VOLTAGE, fd, &mqttdata);
+            MQTT_SendMessage(&mqttdata);
+            unit_state = CURRENT;
+            sleep(2);
+            break;
 
-        Readmodbus_CircutorData_MqttTopicPayload(VOLTAGE, fd, &mqttdata);
+        case CURRENT:
+            Readmodbus_CircutorData_MqttTopicPayload(CURRENT, fd, &mqttdata);
+            MQTT_SendMessage(&mqttdata);
+            unit_state = ACTIVEPOWER;
+            sleep(2);
+            break;
+
+        case ACTIVEPOWER:
+            Readmodbus_CircutorData_MqttTopicPayload(ACTIVEPOWER, fd, &mqttdata);
+            MQTT_SendMessage(&mqttdata);
+            unit_state = ACTIVEENERGIE;
+            sleep(2);
+            break;
+
+        case ACTIVEENERGIE:
+            Readmodbus_CircutorData_MqttTopicPayload(ACTIVEENERGIE, fd, &mqttdata);
+            MQTT_SendMessage(&mqttdata);
+            unit_state = VOLTAGE;
+            sleep(2);
+            break;
+
+        }
+
+
         closeserial(fd);
-
-        // Publish message
-        pubmsg.payload = (char *) malloc(20);
-        sprintf(pubmsg.payload, "%f", mqttdata.Payload);
-        pubmsg.payloadlen = (int)strlen(pubmsg.payload);
-        pubmsg.qos = QOS;
-        pubmsg.retained = 0;
-        if ((rc = MQTTClient_publishMessage(client, mqttdata.Topic, &pubmsg, &token)) != MQTTCLIENT_SUCCESS)
-        {
-             printf("Failed to publish message, return code %d\n", rc);
-             exit(EXIT_FAILURE);
-        }
-        else
-        {
-        	printf("Message published.\n");
-        }
-
-        printf("Waiting for up to %d seconds for publication of %s\n"
-                "on topic %s for client with ClientID: %s\n",
-                (int)(TIMEOUT/1000), pubmsg.payload, mqttdata.Topic, CLIENTID);
-
-        rc = MQTTClient_waitForCompletion(client, token, TIMEOUT);
-        printf("Message with delivery token %d delivered.\n\n", token);
-
-        sleep(2);
-
-
-        // Open the serial port, read the modbus data and close the serial port.
-        fd = openserial(serialdev);
-
-        if (!fd)
-        {
-            fprintf(stderr, "Error while initializing %s.\n", serialdev);
-        }
-
-
-        Readmodbus_CircutorData_MqttTopicPayload(CURRENT, fd, &mqttdata);
-        closeserial(fd);
-
-        // Publish message
-        pubmsg.payload = (char *) malloc(20);
-        sprintf(pubmsg.payload, "%f", mqttdata.Payload);
-        pubmsg.payloadlen = (int)strlen(pubmsg.payload);
-        pubmsg.qos = QOS;
-        pubmsg.retained = 0;
-        if ((rc = MQTTClient_publishMessage(client, mqttdata.Topic, &pubmsg, &token)) != MQTTCLIENT_SUCCESS)
-        {
-             printf("Failed to publish message, return code %d\n", rc);
-             exit(EXIT_FAILURE);
-        }
-        else
-        {
-        	printf("Message published.\n");
-        }
-
-        printf("Waiting for up to %d seconds for publication of %s\n"
-                "on topic %s for client with ClientID: %s\n",
-                (int)(TIMEOUT/1000), pubmsg.payload, mqttdata.Topic, CLIENTID);
-
-        rc = MQTTClient_waitForCompletion(client, token, TIMEOUT);
-        printf("Message with delivery token %d delivered.\n\n", token);
-
-        sleep(2);
-
-
-        // Open the serial port, read the modbus data and close the serial port.
-        fd = openserial(serialdev);
-
-        if (!fd)
-        {
-            fprintf(stderr, "Error while initializing %s.\n", serialdev);
-        }
-
-
-        Readmodbus_CircutorData_MqttTopicPayload(ACTIVEPOWER, fd, &mqttdata);
-        closeserial(fd);
-
-        // Publish message
-        pubmsg.payload = (char *) malloc(20);
-        sprintf(pubmsg.payload, "%f", mqttdata.Payload);
-        pubmsg.payloadlen = (int)strlen(pubmsg.payload);
-        pubmsg.qos = QOS;
-        pubmsg.retained = 0;
-        if ((rc = MQTTClient_publishMessage(client, mqttdata.Topic, &pubmsg, &token)) != MQTTCLIENT_SUCCESS)
-        {
-             printf("Failed to publish message, return code %d\n", rc);
-             exit(EXIT_FAILURE);
-        }
-        else
-        {
-        	printf("Message published.\n");
-        }
-
-        printf("Waiting for up to %d seconds for publication of %s\n"
-                "on topic %s for client with ClientID: %s\n",
-                (int)(TIMEOUT/1000), pubmsg.payload, mqttdata.Topic, CLIENTID);
-
-        rc = MQTTClient_waitForCompletion(client, token, TIMEOUT);
-        printf("Message with delivery token %d delivered.\n\n", token);
-
-        sleep(2);
-
-        // Open the serial port, read the modbus data and close the serial port.
-        fd = openserial(serialdev);
-
-        if (!fd)
-        {
-            fprintf(stderr, "Error while initializing %s.\n", serialdev);
-        }
-
-
-        Readmodbus_CircutorData_MqttTopicPayload(ACTIVEENERGIE, fd, &mqttdata);
-        closeserial(fd);
-
-        // Publish message
-        pubmsg.payload = (char *) malloc(20);
-        sprintf(pubmsg.payload, "%f", mqttdata.Payload);
-        pubmsg.payloadlen = (int)strlen(pubmsg.payload);
-        pubmsg.qos = QOS;
-        pubmsg.retained = 0;
-        if ((rc = MQTTClient_publishMessage(client, mqttdata.Topic, &pubmsg, &token)) != MQTTCLIENT_SUCCESS)
-        {
-             printf("Failed to publish message, return code %d\n", rc);
-             exit(EXIT_FAILURE);
-        }
-        else
-        {
-        	printf("Message published.\n");
-        }
-
-        printf("Waiting for up to %d seconds for publication of %s\n"
-                "on topic %s for client with ClientID: %s\n",
-                (int)(TIMEOUT/1000), pubmsg.payload, mqttdata.Topic, CLIENTID);
-
-        rc = MQTTClient_waitForCompletion(client, token, TIMEOUT);
-        printf("Message with delivery token %d delivered.\n\n", token);
-
-        sleep(2);
 
     }
-
-
-
-
-    // Disconnect the client from the broker.
-    if ((rc = MQTTClient_disconnect(client, 10000)) != MQTTCLIENT_SUCCESS)
-        printf("Failed to disconnect, return code %d\n", rc);
-    MQTTClient_destroy(&client);
-    return rc;
-
-
 }
 
 

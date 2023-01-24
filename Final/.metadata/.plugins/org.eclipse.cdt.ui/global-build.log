@@ -17438,3 +17438,347 @@ Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
 default username:password is [debian:temppwd]
 
  
+15:05:11 **** Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/Base64.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Base64.d" -MT"src/Base64.o" -o "src/Base64.o" "../src/Base64.c"
+Finished building: ../src/Base64.c
+ 
+Building file: ../src/Clients.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clients.d" -MT"src/Clients.o" -o "src/Clients.o" "../src/Clients.c"
+Finished building: ../src/Clients.c
+ 
+Building file: ../src/Heap.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Heap.d" -MT"src/Heap.o" -o "src/Heap.o" "../src/Heap.c"
+Finished building: ../src/Heap.c
+ 
+Building file: ../src/LinkedList.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LinkedList.d" -MT"src/LinkedList.o" -o "src/LinkedList.o" "../src/LinkedList.c"
+Finished building: ../src/LinkedList.c
+ 
+Building file: ../src/Log.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Log.d" -MT"src/Log.o" -o "src/Log.o" "../src/Log.c"
+Finished building: ../src/Log.c
+ 
+Building file: ../src/MQTTClient.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTClient.d" -MT"src/MQTTClient.o" -o "src/MQTTClient.o" "../src/MQTTClient.c"
+Finished building: ../src/MQTTClient.c
+ 
+Building file: ../src/MQTTPacket.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTPacket.d" -MT"src/MQTTPacket.o" -o "src/MQTTPacket.o" "../src/MQTTPacket.c"
+Finished building: ../src/MQTTPacket.c
+ 
+Building file: ../src/MQTTPacketOut.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTPacketOut.d" -MT"src/MQTTPacketOut.o" -o "src/MQTTPacketOut.o" "../src/MQTTPacketOut.c"
+Finished building: ../src/MQTTPacketOut.c
+ 
+Building file: ../src/MQTTPersistence.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTPersistence.d" -MT"src/MQTTPersistence.o" -o "src/MQTTPersistence.o" "../src/MQTTPersistence.c"
+Finished building: ../src/MQTTPersistence.c
+ 
+Building file: ../src/MQTTPersistenceDefault.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTPersistenceDefault.d" -MT"src/MQTTPersistenceDefault.o" -o "src/MQTTPersistenceDefault.o" "../src/MQTTPersistenceDefault.c"
+Finished building: ../src/MQTTPersistenceDefault.c
+ 
+Building file: ../src/MQTTProperties.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTProperties.d" -MT"src/MQTTProperties.o" -o "src/MQTTProperties.o" "../src/MQTTProperties.c"
+Finished building: ../src/MQTTProperties.c
+ 
+Building file: ../src/MQTTProtocolClient.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTProtocolClient.d" -MT"src/MQTTProtocolClient.o" -o "src/MQTTProtocolClient.o" "../src/MQTTProtocolClient.c"
+Finished building: ../src/MQTTProtocolClient.c
+ 
+Building file: ../src/MQTTProtocolOut.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTProtocolOut.d" -MT"src/MQTTProtocolOut.o" -o "src/MQTTProtocolOut.o" "../src/MQTTProtocolOut.c"
+Finished building: ../src/MQTTProtocolOut.c
+ 
+Building file: ../src/MQTTReasonCodes.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTReasonCodes.d" -MT"src/MQTTReasonCodes.o" -o "src/MQTTReasonCodes.o" "../src/MQTTReasonCodes.c"
+Finished building: ../src/MQTTReasonCodes.c
+ 
+Building file: ../src/MQTTTime.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTTTime.d" -MT"src/MQTTTime.o" -o "src/MQTTTime.o" "../src/MQTTTime.c"
+Finished building: ../src/MQTTTime.c
+ 
+Building file: ../src/MQTT_Custom.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MQTT_Custom.d" -MT"src/MQTT_Custom.o" -o "src/MQTT_Custom.o" "../src/MQTT_Custom.c"
+../src/MQTT_Custom.c: In function ‘MQTT_SendMessage’:
+../src/MQTT_Custom.c:80:53: warning: pointer targets in passing argument 2 of ‘MQTTClient_publishMessage’ differ in signedness [-Wpointer-sign]
+   80 |     if ((rc = MQTTClient_publishMessage(client, data->Topic, &pubmsg, &token)) != MQTTCLIENT_SUCCESS)
+      |                                                 ~~~~^~~~~~~
+      |                                                     |
+      |                                                     unsigned char *
+In file included from ../src/MQTT_Custom.c:21:
+../src/MQTTClient.h:1277:74: note: expected ‘const char *’ but argument is of type ‘unsigned char *’
+ 1277 | LIBMQTT_API int MQTTClient_publishMessage(MQTTClient handle, const char* topicName, MQTTClient_message* msg, MQTTClient_deliveryToken* dt);
+      |                                                              ~~~~~~~~~~~~^~~~~~~~~
+../src/MQTT_Custom.c:90:62: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘void *’ [-Wformat=]
+   90 |     printf("Waiting for up to %d seconds for publication of %s\n"
+      |                                                             ~^
+      |                                                              |
+      |                                                              char *
+      |                                                             %p
+   91 |             "on topic %s for client with ClientID: %s\n",
+   92 |             (int)(TIMEOUT/1000), pubmsg.payload, data->Topic, CLIENTID);
+      |                                  ~~~~~~~~~~~~~~               
+      |                                        |
+      |                                        void *
+In file included from ../src/MQTT_Custom.c:20:
+At top level:
+../src/Modbus_Circutor_CVM_1D_Registers.h:33:13: warning: ‘RegisterNames_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   33 | static char RegisterNames_Circutor_CVM_1D[][50] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus_Circutor_CVM_1D_Registers.h:16:12: warning: ‘Registers_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   16 | static int Registers_Circutor_CVM_1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus_Circutor_CVM_1D_Registers.h:12:12: warning: ‘Circutor_CVM_1D_Address’ defined but not used [-Wunused-variable]
+   12 | static int Circutor_CVM_1D_Address = 0x01;
+      |            ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/MQTT_Custom.c
+ 
+Building file: ../src/Messages.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Messages.d" -MT"src/Messages.o" -o "src/Messages.o" "../src/Messages.c"
+Finished building: ../src/Messages.c
+ 
+Building file: ../src/Modbus.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus.d" -MT"src/Modbus.o" -o "src/Modbus.o" "../src/Modbus.c"
+Finished building: ../src/Modbus.c
+ 
+Building file: ../src/Modbus_Circutor_CVM_1D_Registers.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Modbus_Circutor_CVM_1D_Registers.d" -MT"src/Modbus_Circutor_CVM_1D_Registers.o" -o "src/Modbus_Circutor_CVM_1D_Registers.o" "../src/Modbus_Circutor_CVM_1D_Registers.c"
+../src/Modbus_Circutor_CVM_1D_Registers.c: In function ‘Readmodbus_CircutorData_MqttTopicPayload’:
+../src/Modbus_Circutor_CVM_1D_Registers.c:65:16: warning: pointer targets in passing argument 1 of ‘strcpy’ differ in signedness [-Wpointer-sign]
+   65 |     strcpy(data->TopicPartTwo, RegisterNames_Circutor_CVM_1D[type]);
+      |            ~~~~^~~~~~~~~~~~~~
+      |                |
+      |                unsigned char *
+In file included from ../src/Modbus_Circutor_CVM_1D_Registers.c:9:
+/usr/arm-linux-gnueabihf/include/string.h:122:39: note: expected ‘char * restrict’ but argument is of type ‘unsigned char *’
+  122 | extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+      |                      ~~~~~~~~~~~~~~~~~^~~~~~
+../src/Modbus_Circutor_CVM_1D_Registers.c:76:16: warning: pointer targets in passing argument 1 of ‘strcpy’ differ in signedness [-Wpointer-sign]
+   76 |     strcpy(data->Topic, Topic);
+      |            ~~~~^~~~~~~
+      |                |
+      |                unsigned char *
+In file included from ../src/Modbus_Circutor_CVM_1D_Registers.c:9:
+/usr/arm-linux-gnueabihf/include/string.h:122:39: note: expected ‘char * restrict’ but argument is of type ‘unsigned char *’
+  122 | extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+      |                      ~~~~~~~~~~~~~~~~~^~~~~~
+../src/Modbus_Circutor_CVM_1D_Registers.c:76:25: warning: pointer targets in passing argument 2 of ‘strcpy’ differ in signedness [-Wpointer-sign]
+   76 |     strcpy(data->Topic, Topic);
+      |                         ^~~~~
+      |                         |
+      |                         unsigned char *
+In file included from ../src/Modbus_Circutor_CVM_1D_Registers.c:9:
+/usr/arm-linux-gnueabihf/include/string.h:122:70: note: expected ‘const char * restrict’ but argument is of type ‘unsigned char *’
+  122 | extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+      |                                               ~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+Finished building: ../src/Modbus_Circutor_CVM_1D_Registers.c
+ 
+Building file: ../src/OsWrapper.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OsWrapper.d" -MT"src/OsWrapper.o" -o "src/OsWrapper.o" "../src/OsWrapper.c"
+Finished building: ../src/OsWrapper.c
+ 
+Building file: ../src/Proxy.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Proxy.d" -MT"src/Proxy.o" -o "src/Proxy.o" "../src/Proxy.c"
+Finished building: ../src/Proxy.c
+ 
+Building file: ../src/SHA1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SHA1.d" -MT"src/SHA1.o" -o "src/SHA1.o" "../src/SHA1.c"
+Finished building: ../src/SHA1.c
+ 
+Building file: ../src/SSLSocket.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SSLSocket.d" -MT"src/SSLSocket.o" -o "src/SSLSocket.o" "../src/SSLSocket.c"
+Finished building: ../src/SSLSocket.c
+ 
+Building file: ../src/Serial.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Serial.d" -MT"src/Serial.o" -o "src/Serial.o" "../src/Serial.c"
+Finished building: ../src/Serial.c
+ 
+Building file: ../src/Socket.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Socket.d" -MT"src/Socket.o" -o "src/Socket.o" "../src/Socket.c"
+Finished building: ../src/Socket.c
+ 
+Building file: ../src/SocketBuffer.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SocketBuffer.d" -MT"src/SocketBuffer.o" -o "src/SocketBuffer.o" "../src/SocketBuffer.c"
+Finished building: ../src/SocketBuffer.c
+ 
+Building file: ../src/StackTrace.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StackTrace.d" -MT"src/StackTrace.o" -o "src/StackTrace.o" "../src/StackTrace.c"
+Finished building: ../src/StackTrace.c
+ 
+Building file: ../src/Thread.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Thread.d" -MT"src/Thread.o" -o "src/Thread.o" "../src/Thread.c"
+Finished building: ../src/Thread.c
+ 
+Building file: ../src/Tree.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tree.d" -MT"src/Tree.o" -o "src/Tree.o" "../src/Tree.c"
+Finished building: ../src/Tree.c
+ 
+Building file: ../src/WebSocket.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/WebSocket.d" -MT"src/WebSocket.o" -o "src/WebSocket.o" "../src/WebSocket.c"
+Finished building: ../src/WebSocket.c
+ 
+Building file: ../src/main.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function ‘main’:
+../src/main.c:34:17: warning: pointer targets in passing argument 1 of ‘strcpy’ differ in signedness [-Wpointer-sign]
+   34 |  strcpy(mqttdata.TopicPartOne, "ProjectenVoorHetWerkveld/CircutorEnergyMeter/");
+      |         ~~~~~~~~^~~~~~~~~~~~~
+      |                 |
+      |                 unsigned char *
+In file included from ../src/main.c:19:
+/usr/arm-linux-gnueabihf/include/string.h:122:39: note: expected ‘char * restrict’ but argument is of type ‘unsigned char *’
+  122 | extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+      |                      ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from ../src/main.c:22:
+At top level:
+../src/Modbus_Circutor_CVM_1D_Registers.h:33:13: warning: ‘RegisterNames_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   33 | static char RegisterNames_Circutor_CVM_1D[][50] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus_Circutor_CVM_1D_Registers.h:16:12: warning: ‘Registers_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   16 | static int Registers_Circutor_CVM_1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus_Circutor_CVM_1D_Registers.h:12:12: warning: ‘Circutor_CVM_1D_Address’ defined but not used [-Wunused-variable]
+   12 | static int Circutor_CVM_1D_Address = 0x01;
+      |            ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building file: ../src/utf-8.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/utf-8.d" -MT"src/utf-8.o" -o "src/utf-8.o" "../src/utf-8.c"
+Finished building: ../src/utf-8.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Base64.o ./src/Clients.o ./src/Heap.o ./src/LinkedList.o ./src/Log.o ./src/MQTTClient.o ./src/MQTTPacket.o ./src/MQTTPacketOut.o ./src/MQTTPersistence.o ./src/MQTTPersistenceDefault.o ./src/MQTTProperties.o ./src/MQTTProtocolClient.o ./src/MQTTProtocolOut.o ./src/MQTTReasonCodes.o ./src/MQTTTime.o ./src/MQTT_Custom.o ./src/Messages.o ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/OsWrapper.o ./src/Proxy.o ./src/SHA1.o ./src/SSLSocket.o ./src/Serial.o ./src/Socket.o ./src/SocketBuffer.o ./src/StackTrace.o ./src/Thread.o ./src/Tree.o ./src/WebSocket.o ./src/main.o ./src/utf-8.o    -lpthread -ldl
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+15:13:26 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/main.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function ‘main’:
+../src/main.c:34:17: warning: pointer targets in passing argument 1 of ‘strcpy’ differ in signedness [-Wpointer-sign]
+   34 |  strcpy(mqttdata.TopicPartOne, "ProjectenVoorHetWerkveld/CircutorEnergyMeter/");
+      |         ~~~~~~~~^~~~~~~~~~~~~
+      |                 |
+      |                 unsigned char *
+In file included from ../src/main.c:19:
+/usr/arm-linux-gnueabihf/include/string.h:122:39: note: expected ‘char * restrict’ but argument is of type ‘unsigned char *’
+  122 | extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+      |                      ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from ../src/main.c:22:
+At top level:
+../src/Modbus_Circutor_CVM_1D_Registers.h:33:13: warning: ‘RegisterNames_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   33 | static char RegisterNames_Circutor_CVM_1D[][50] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus_Circutor_CVM_1D_Registers.h:16:12: warning: ‘Registers_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   16 | static int Registers_Circutor_CVM_1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus_Circutor_CVM_1D_Registers.h:12:12: warning: ‘Circutor_CVM_1D_Address’ defined but not used [-Wunused-variable]
+   12 | static int Circutor_CVM_1D_Address = 0x01;
+      |            ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Base64.o ./src/Clients.o ./src/Heap.o ./src/LinkedList.o ./src/Log.o ./src/MQTTClient.o ./src/MQTTPacket.o ./src/MQTTPacketOut.o ./src/MQTTPersistence.o ./src/MQTTPersistenceDefault.o ./src/MQTTProperties.o ./src/MQTTProtocolClient.o ./src/MQTTProtocolOut.o ./src/MQTTReasonCodes.o ./src/MQTTTime.o ./src/MQTT_Custom.o ./src/Messages.o ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/OsWrapper.o ./src/Proxy.o ./src/SHA1.o ./src/SSLSocket.o ./src/Serial.o ./src/Socket.o ./src/SocketBuffer.o ./src/StackTrace.o ./src/Thread.o ./src/Tree.o ./src/WebSocket.o ./src/main.o ./src/utf-8.o    -lpthread -ldl
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 
+15:15:31 **** Incremental Build of configuration Debug for project TestARM ****
+make all 
+Building file: ../src/main.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function ‘main’:
+../src/main.c:34:17: warning: pointer targets in passing argument 1 of ‘strcpy’ differ in signedness [-Wpointer-sign]
+   34 |  strcpy(mqttdata.TopicPartOne, "ProjectenVoorHetWerkveld/CircutorEnergyMeter/");
+      |         ~~~~~~~~^~~~~~~~~~~~~
+      |                 |
+      |                 unsigned char *
+In file included from ../src/main.c:19:
+/usr/arm-linux-gnueabihf/include/string.h:122:39: note: expected ‘char * restrict’ but argument is of type ‘unsigned char *’
+  122 | extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+      |                      ~~~~~~~~~~~~~~~~~^~~~~~
+In file included from ../src/main.c:22:
+At top level:
+../src/Modbus_Circutor_CVM_1D_Registers.h:33:13: warning: ‘RegisterNames_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   33 | static char RegisterNames_Circutor_CVM_1D[][50] = {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus_Circutor_CVM_1D_Registers.h:16:12: warning: ‘Registers_Circutor_CVM_1D’ defined but not used [-Wunused-variable]
+   16 | static int Registers_Circutor_CVM_1D[] = {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Modbus_Circutor_CVM_1D_Registers.h:12:12: warning: ‘Circutor_CVM_1D_Address’ defined but not used [-Wunused-variable]
+   12 | static int Circutor_CVM_1D_Address = 0x01;
+      |            ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: TestARM
+Invoking: Cross G++ Linker
+arm-linux-gnueabihf-g++  -o "TestARM" ./src/Base64.o ./src/Clients.o ./src/Heap.o ./src/LinkedList.o ./src/Log.o ./src/MQTTClient.o ./src/MQTTPacket.o ./src/MQTTPacketOut.o ./src/MQTTPersistence.o ./src/MQTTPersistenceDefault.o ./src/MQTTProperties.o ./src/MQTTProtocolClient.o ./src/MQTTProtocolOut.o ./src/MQTTReasonCodes.o ./src/MQTTTime.o ./src/MQTT_Custom.o ./src/Messages.o ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/OsWrapper.o ./src/Proxy.o ./src/SHA1.o ./src/SSLSocket.o ./src/Serial.o ./src/Socket.o ./src/SocketBuffer.o ./src/StackTrace.o ./src/Thread.o ./src/Tree.o ./src/WebSocket.o ./src/main.o ./src/utf-8.o    -lpthread -ldl
+Finished building target: TestARM
+ 
+scp TestARM debian@192.168.1.251:/home/debian/BBBTest
+Debian GNU/Linux 10
+
+BeagleBoard.org Debian Buster IoT Image 2020-04-06
+
+Support: http://elinux.org/Beagleboard:BeagleBoneBlack_Debian
+
+default username:password is [debian:temppwd]
+
+ 

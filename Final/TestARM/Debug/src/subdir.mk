@@ -19,6 +19,7 @@ C_SRCS += \
 ../src/MQTTProtocolOut.c \
 ../src/MQTTReasonCodes.c \
 ../src/MQTTTime.c \
+../src/MQTT_Custom.c \
 ../src/Messages.c \
 ../src/Modbus.c \
 ../src/Modbus_Circutor_CVM_1D_Registers.c \
@@ -30,10 +31,10 @@ C_SRCS += \
 ../src/Socket.c \
 ../src/SocketBuffer.c \
 ../src/StackTrace.c \
-../src/TestARM.c \
 ../src/Thread.c \
 ../src/Tree.c \
 ../src/WebSocket.c \
+../src/main.c \
 ../src/utf-8.c 
 
 C_DEPS += \
@@ -52,6 +53,7 @@ C_DEPS += \
 ./src/MQTTProtocolOut.d \
 ./src/MQTTReasonCodes.d \
 ./src/MQTTTime.d \
+./src/MQTT_Custom.d \
 ./src/Messages.d \
 ./src/Modbus.d \
 ./src/Modbus_Circutor_CVM_1D_Registers.d \
@@ -63,10 +65,10 @@ C_DEPS += \
 ./src/Socket.d \
 ./src/SocketBuffer.d \
 ./src/StackTrace.d \
-./src/TestARM.d \
 ./src/Thread.d \
 ./src/Tree.d \
 ./src/WebSocket.d \
+./src/main.d \
 ./src/utf-8.d 
 
 OBJS += \
@@ -85,6 +87,7 @@ OBJS += \
 ./src/MQTTProtocolOut.o \
 ./src/MQTTReasonCodes.o \
 ./src/MQTTTime.o \
+./src/MQTT_Custom.o \
 ./src/Messages.o \
 ./src/Modbus.o \
 ./src/Modbus_Circutor_CVM_1D_Registers.o \
@@ -96,10 +99,10 @@ OBJS += \
 ./src/Socket.o \
 ./src/SocketBuffer.o \
 ./src/StackTrace.o \
-./src/TestARM.o \
 ./src/Thread.o \
 ./src/Tree.o \
 ./src/WebSocket.o \
+./src/main.o \
 ./src/utf-8.o 
 
 
@@ -115,7 +118,7 @@ src/%.o: ../src/%.c src/subdir.mk
 clean: clean-src
 
 clean-src:
-	-$(RM) ./src/Base64.d ./src/Base64.o ./src/Clients.d ./src/Clients.o ./src/Heap.d ./src/Heap.o ./src/LinkedList.d ./src/LinkedList.o ./src/Log.d ./src/Log.o ./src/MQTTClient.d ./src/MQTTClient.o ./src/MQTTPacket.d ./src/MQTTPacket.o ./src/MQTTPacketOut.d ./src/MQTTPacketOut.o ./src/MQTTPersistence.d ./src/MQTTPersistence.o ./src/MQTTPersistenceDefault.d ./src/MQTTPersistenceDefault.o ./src/MQTTProperties.d ./src/MQTTProperties.o ./src/MQTTProtocolClient.d ./src/MQTTProtocolClient.o ./src/MQTTProtocolOut.d ./src/MQTTProtocolOut.o ./src/MQTTReasonCodes.d ./src/MQTTReasonCodes.o ./src/MQTTTime.d ./src/MQTTTime.o ./src/Messages.d ./src/Messages.o ./src/Modbus.d ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.d ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/OsWrapper.d ./src/OsWrapper.o ./src/Proxy.d ./src/Proxy.o ./src/SHA1.d ./src/SHA1.o ./src/SSLSocket.d ./src/SSLSocket.o ./src/Serial.d ./src/Serial.o ./src/Socket.d ./src/Socket.o ./src/SocketBuffer.d ./src/SocketBuffer.o ./src/StackTrace.d ./src/StackTrace.o ./src/TestARM.d ./src/TestARM.o ./src/Thread.d ./src/Thread.o ./src/Tree.d ./src/Tree.o ./src/WebSocket.d ./src/WebSocket.o ./src/utf-8.d ./src/utf-8.o
+	-$(RM) ./src/Base64.d ./src/Base64.o ./src/Clients.d ./src/Clients.o ./src/Heap.d ./src/Heap.o ./src/LinkedList.d ./src/LinkedList.o ./src/Log.d ./src/Log.o ./src/MQTTClient.d ./src/MQTTClient.o ./src/MQTTPacket.d ./src/MQTTPacket.o ./src/MQTTPacketOut.d ./src/MQTTPacketOut.o ./src/MQTTPersistence.d ./src/MQTTPersistence.o ./src/MQTTPersistenceDefault.d ./src/MQTTPersistenceDefault.o ./src/MQTTProperties.d ./src/MQTTProperties.o ./src/MQTTProtocolClient.d ./src/MQTTProtocolClient.o ./src/MQTTProtocolOut.d ./src/MQTTProtocolOut.o ./src/MQTTReasonCodes.d ./src/MQTTReasonCodes.o ./src/MQTTTime.d ./src/MQTTTime.o ./src/MQTT_Custom.d ./src/MQTT_Custom.o ./src/Messages.d ./src/Messages.o ./src/Modbus.d ./src/Modbus.o ./src/Modbus_Circutor_CVM_1D_Registers.d ./src/Modbus_Circutor_CVM_1D_Registers.o ./src/OsWrapper.d ./src/OsWrapper.o ./src/Proxy.d ./src/Proxy.o ./src/SHA1.d ./src/SHA1.o ./src/SSLSocket.d ./src/SSLSocket.o ./src/Serial.d ./src/Serial.o ./src/Socket.d ./src/Socket.o ./src/SocketBuffer.d ./src/SocketBuffer.o ./src/StackTrace.d ./src/StackTrace.o ./src/Thread.d ./src/Thread.o ./src/Tree.d ./src/Tree.o ./src/WebSocket.d ./src/WebSocket.o ./src/main.d ./src/main.o ./src/utf-8.d ./src/utf-8.o
 
 .PHONY: clean-src
 
